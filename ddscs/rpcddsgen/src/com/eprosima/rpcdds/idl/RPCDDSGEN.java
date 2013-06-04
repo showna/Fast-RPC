@@ -375,7 +375,7 @@ public class RPCDDSGEN
         finalCommandArray = (String[])finalCommandLine.toArray(finalCommandArray);
         
         for(int i = 0; i < finalCommandArray.length; ++i)
-        	System.out.println(finalCommandArray[count].toString());
+        	System.out.println(finalCommandArray[i].toString());
         
         Process ddsgen;     
         if(!setWorkingDirectory)
