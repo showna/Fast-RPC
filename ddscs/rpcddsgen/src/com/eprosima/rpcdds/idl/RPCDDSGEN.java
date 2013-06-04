@@ -1068,7 +1068,6 @@ public class RPCDDSGEN
                 reply.reset();
             }
 
-            //System.out.println(reply.toString());
             externalDir.append(ifc.getName()).append("RequestReply.idl");
             String newIdlFile = externalDir.toString();
             if(writeFile(externalDir.toString(), theFile) == 0)
