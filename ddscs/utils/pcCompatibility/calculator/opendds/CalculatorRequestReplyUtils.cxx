@@ -23,7 +23,7 @@ const char* Calculator_additionRequestUtils::registerType(DDS::DomainParticipant
     if(participant != NULL)
     {
         Calculator_additionRequestTypeSupport_var ts = new Calculator_additionRequestTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_additionRequest");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -56,7 +56,7 @@ const char* Calculator_additionReplyUtils::registerType(DDS::DomainParticipant *
     if(participant != NULL)
     {
         Calculator_additionReplyTypeSupport_var ts = new Calculator_additionReplyTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_additionReply");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -87,7 +87,7 @@ const char* Calculator_substractionRequestUtils::registerType(DDS::DomainPartici
     if(participant != NULL)
     {
         Calculator_substractionRequestTypeSupport_var ts = new Calculator_substractionRequestTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_substractionRequest");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -120,7 +120,7 @@ const char* Calculator_substractionReplyUtils::registerType(DDS::DomainParticipa
     if(participant != NULL)
     {
         Calculator_substractionReplyTypeSupport_var ts = new Calculator_substractionReplyTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_substractionReply");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -151,7 +151,7 @@ const char* Calculator_multiplicationRequestUtils::registerType(DDS::DomainParti
     if(participant != NULL)
     {
         Calculator_multiplicationRequestTypeSupport_var ts = new Calculator_multiplicationRequestTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_multiplicationRequest");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -184,7 +184,7 @@ const char* Calculator_multiplicationReplyUtils::registerType(DDS::DomainPartici
     if(participant != NULL)
     {
         Calculator_multiplicationReplyTypeSupport_var ts = new Calculator_multiplicationReplyTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_multiplicationReply");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -215,7 +215,7 @@ const char* Calculator_divisionRequestUtils::registerType(DDS::DomainParticipant
     if(participant != NULL)
     {
         Calculator_divisionRequestTypeSupport_var ts = new Calculator_divisionRequestTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_divisionRequest");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -248,7 +248,7 @@ const char* Calculator_divisionReplyUtils::registerType(DDS::DomainParticipant *
     if(participant != NULL)
     {
         Calculator_divisionReplyTypeSupport_var ts = new Calculator_divisionReplyTypeSupportImpl;
-        typeName = ts->get_type_name();
+        typeName = CORBA::string_dup ("Calculator_divisionReply");
 
         if(ts->register_type(participant, typeName) != DDS::RETCODE_OK)
         {
