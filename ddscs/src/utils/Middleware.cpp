@@ -143,7 +143,7 @@ namespace eProsima
 
             if(discovery != NULL)
             {
-                discovery->resend_period(ACE_Time_Value(3));
+                //discovery->resend_period(ACE_Time_Value(3));
                 discovery->sedp_multicast(false);
                 std::vector<std::string> addresses;
                 discovery->spdp_send_addrs().swap(addresses);
