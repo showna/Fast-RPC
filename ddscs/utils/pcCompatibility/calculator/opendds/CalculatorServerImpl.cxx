@@ -15,36 +15,36 @@
 #include "CalculatorServerImpl.h"
 
  
-CORBA::LongLong CalculatorServerImpl::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorServerImpl::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
-    CORBA::LongLong  addition_ret = 0;
+    CORBA::Long  addition_ret = 0;
 
     addition_ret = x + y;
    
     return addition_ret;
 } 
  
-CORBA::LongLong CalculatorServerImpl::substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorServerImpl::substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
-    CORBA::LongLong  substraction_ret = 0;
+    CORBA::Long  substraction_ret = 0;
 
     substraction_ret = x - y;
    
     return substraction_ret;
 } 
  
-CORBA::LongLong CalculatorServerImpl::multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorServerImpl::multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
-    CORBA::LongLong  multiplication_ret = 0;
+    CORBA::Long  multiplication_ret = 0;
 
     multiplication_ret = x * y;
    
     return multiplication_ret;
 } 
  
-CORBA::LongLong CalculatorServerImpl::division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorServerImpl::division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
-    CORBA::LongLong  division_ret = 0;
+    CORBA::Long  division_ret = 0;
 
     division_ret = x / y;
    

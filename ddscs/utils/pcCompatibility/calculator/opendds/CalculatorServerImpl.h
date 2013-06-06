@@ -33,13 +33,13 @@ class CalculatorServerImpl
         virtual ~CalculatorServerImpl(){}
 
          
-        CORBA::LongLong addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
 };
 
 #endif // _CalculatorSERVER_IMPL_H_

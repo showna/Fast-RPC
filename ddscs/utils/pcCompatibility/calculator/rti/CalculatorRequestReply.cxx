@@ -309,7 +309,7 @@ DDS_TypeCode* Calculator_additionReply_get_typecode()
 
 
     Calculator_additionReply_g_tc_members[0]._representation._typeCode = (RTICdrTypeCode *)ReplyHeader_get_typecode();
-    Calculator_additionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_longlong;
+    Calculator_additionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_long;
 
     is_initialized = RTI_TRUE;
 
@@ -335,7 +335,7 @@ RTIBool Calculator_additionReply_initialize_ex(
     }
             
 
-    if (!RTICdrType_initLongLong(&sample->addition_ret)) {
+    if (!RTICdrType_initLong(&sample->addition_ret)) {
         return RTI_FALSE;
     }                
             
@@ -374,7 +374,7 @@ RTIBool Calculator_additionReply_copy(
     }
             
 
-    if (!RTICdrType_copyLongLong(
+    if (!RTICdrType_copyLong(
         &dst->addition_ret, &src->addition_ret)) {
         return RTI_FALSE;
     }
@@ -687,7 +687,7 @@ DDS_TypeCode* Calculator_substractionReply_get_typecode()
 
 
     Calculator_substractionReply_g_tc_members[0]._representation._typeCode = (RTICdrTypeCode *)ReplyHeader_get_typecode();
-    Calculator_substractionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_longlong;
+    Calculator_substractionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_long;
 
     is_initialized = RTI_TRUE;
 
@@ -713,7 +713,7 @@ RTIBool Calculator_substractionReply_initialize_ex(
     }
             
 
-    if (!RTICdrType_initLongLong(&sample->substraction_ret)) {
+    if (!RTICdrType_initLong(&sample->substraction_ret)) {
         return RTI_FALSE;
     }                
             
@@ -752,7 +752,7 @@ RTIBool Calculator_substractionReply_copy(
     }
             
 
-    if (!RTICdrType_copyLongLong(
+    if (!RTICdrType_copyLong(
         &dst->substraction_ret, &src->substraction_ret)) {
         return RTI_FALSE;
     }
@@ -1065,7 +1065,7 @@ DDS_TypeCode* Calculator_multiplicationReply_get_typecode()
 
 
     Calculator_multiplicationReply_g_tc_members[0]._representation._typeCode = (RTICdrTypeCode *)ReplyHeader_get_typecode();
-    Calculator_multiplicationReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_longlong;
+    Calculator_multiplicationReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_long;
 
     is_initialized = RTI_TRUE;
 
@@ -1091,7 +1091,7 @@ RTIBool Calculator_multiplicationReply_initialize_ex(
     }
             
 
-    if (!RTICdrType_initLongLong(&sample->multiplication_ret)) {
+    if (!RTICdrType_initLong(&sample->multiplication_ret)) {
         return RTI_FALSE;
     }                
             
@@ -1130,7 +1130,7 @@ RTIBool Calculator_multiplicationReply_copy(
     }
             
 
-    if (!RTICdrType_copyLongLong(
+    if (!RTICdrType_copyLong(
         &dst->multiplication_ret, &src->multiplication_ret)) {
         return RTI_FALSE;
     }
@@ -1443,7 +1443,7 @@ DDS_TypeCode* Calculator_divisionReply_get_typecode()
 
 
     Calculator_divisionReply_g_tc_members[0]._representation._typeCode = (RTICdrTypeCode *)ReplyHeader_get_typecode();
-    Calculator_divisionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_longlong;
+    Calculator_divisionReply_g_tc_members[1]._representation._typeCode = (RTICdrTypeCode *)&DDS_g_tc_long;
 
     is_initialized = RTI_TRUE;
 
@@ -1469,7 +1469,7 @@ RTIBool Calculator_divisionReply_initialize_ex(
     }
             
 
-    if (!RTICdrType_initLongLong(&sample->division_ret)) {
+    if (!RTICdrType_initLong(&sample->division_ret)) {
         return RTI_FALSE;
     }                
             
@@ -1508,7 +1508,7 @@ RTIBool Calculator_divisionReply_copy(
     }
             
 
-    if (!RTICdrType_copyLongLong(
+    if (!RTICdrType_copyLong(
         &dst->division_ret, &src->division_ret)) {
         return RTI_FALSE;
     }

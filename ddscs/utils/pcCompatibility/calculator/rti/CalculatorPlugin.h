@@ -8,8 +8,8 @@
   or consult the RTI Connext manual.
 */
 
-#ifndef CalculatorPlugin_1695587076_h
-#define CalculatorPlugin_1695587076_h
+#ifndef CalculatorPlugin_1695587056_h
+#define CalculatorPlugin_1695587056_h
 
 #include "Calculator.h"
 
@@ -47,4 +47,4 @@ extern "C" {
 #define NDDSUSERDllExport
 #endif        
 
-#endif /* CalculatorPlugin_1695587076_h */
+#endif /* CalculatorPlugin_1695587056_h */

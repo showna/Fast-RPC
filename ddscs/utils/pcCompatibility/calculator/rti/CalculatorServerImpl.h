@@ -33,13 +33,13 @@ class CalculatorServerImpl
         virtual ~CalculatorServerImpl(){}
 
          
-        DDS_LongLong addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong division(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long division(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
 };
 
 #endif // _CalculatorSERVER_IMPL_H_

@@ -117,7 +117,7 @@ struct  Calculator_additionReply
   
   
   ReplyHeader header;
-  ::CORBA::LongLong addition_ret;
+  ::CORBA::Long addition_ret;
 };
 
 // TAO_IDL - Generated from
@@ -188,7 +188,7 @@ struct  Calculator_substractionReply
   
   
   ReplyHeader header;
-  ::CORBA::LongLong substraction_ret;
+  ::CORBA::Long substraction_ret;
 };
 
 // TAO_IDL - Generated from
@@ -259,7 +259,7 @@ struct  Calculator_multiplicationReply
   
   
   ReplyHeader header;
-  ::CORBA::LongLong multiplication_ret;
+  ::CORBA::Long multiplication_ret;
 };
 
 // TAO_IDL - Generated from
@@ -330,7 +330,7 @@ struct  Calculator_divisionReply
   
   
   ReplyHeader header;
-  ::CORBA::LongLong division_ret;
+  ::CORBA::Long division_ret;
 };
 
 // TAO_IDL - Generated from

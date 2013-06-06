@@ -62,10 +62,10 @@ void CalculatorProxy::createRPCs()
 }
 
  
-DDS_LongLong CalculatorProxy::addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorProxy::addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    DDS_LongLong  addition_ret = 0;
+    DDS_Long  addition_ret = 0;
     Calculator_additionRequest instance;
     Calculator_additionReply retInstance;
 
@@ -98,10 +98,10 @@ DDS_LongLong CalculatorProxy::addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y)
     return addition_ret;
 }
  
-DDS_LongLong CalculatorProxy::substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorProxy::substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    DDS_LongLong  substraction_ret = 0;
+    DDS_Long  substraction_ret = 0;
     Calculator_substractionRequest instance;
     Calculator_substractionReply retInstance;
 
@@ -134,10 +134,10 @@ DDS_LongLong CalculatorProxy::substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y)
     return substraction_ret;
 }
  
-DDS_LongLong CalculatorProxy::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorProxy::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    DDS_LongLong  multiplication_ret = 0;
+    DDS_Long  multiplication_ret = 0;
     Calculator_multiplicationRequest instance;
     Calculator_multiplicationReply retInstance;
 
@@ -170,10 +170,10 @@ DDS_LongLong CalculatorProxy::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long 
     return multiplication_ret;
 }
  
-DDS_LongLong CalculatorProxy::division(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorProxy::division(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    DDS_LongLong  division_ret = 0;
+    DDS_Long  division_ret = 0;
     Calculator_divisionRequest instance;
     Calculator_divisionReply retInstance;
 

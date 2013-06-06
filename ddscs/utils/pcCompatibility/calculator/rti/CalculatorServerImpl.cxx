@@ -15,41 +15,38 @@
 #include "CalculatorServerImpl.h"
 
  
-DDS_LongLong CalculatorServerImpl::addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorServerImpl::addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
-    DDS_LongLong  addition_ret = 0;
+    DDS_Long  addition_ret = 0;
 
     addition_ret = x + y;
    
     return addition_ret;
 } 
  
-DDS_LongLong CalculatorServerImpl::substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorServerImpl::substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
-    DDS_LongLong  substraction_ret = 0;
+    DDS_Long  substraction_ret = 0;
 
     substraction_ret = x - y;
    
     return substraction_ret;
 } 
  
-DDS_LongLong CalculatorServerImpl::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorServerImpl::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
-    DDS_LongLong  multiplication_ret = 0;
+    DDS_Long  multiplication_ret = 0;
 
     multiplication_ret = x * y;
    
     return multiplication_ret;
 } 
  
-DDS_LongLong CalculatorServerImpl::division(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
+DDS_Long CalculatorServerImpl::division(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
-    DDS_LongLong  division_ret = 0;
+    DDS_Long  division_ret = 0;
 
-    if(y != 0)
-    {
-        division_ret = x / y;
-    }
+    division_ret = x / y;
    
     return division_ret;
 } 

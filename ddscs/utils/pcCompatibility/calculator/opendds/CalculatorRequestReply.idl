@@ -34,7 +34,7 @@ struct Calculator_additionRequest{
  */
 struct Calculator_additionReply{
     ReplyHeader header;
-    long long addition_ret;
+    long addition_ret;
 }; 
 
 #pragma DCPS_DATA_TYPE "Calculator_substractionRequest"
@@ -55,7 +55,7 @@ struct Calculator_substractionRequest{
  */
 struct Calculator_substractionReply{
     ReplyHeader header;
-    long long substraction_ret;
+    long substraction_ret;
 }; 
 
 #pragma DCPS_DATA_TYPE "Calculator_multiplicationRequest"
@@ -76,7 +76,7 @@ struct Calculator_multiplicationRequest{
  */
 struct Calculator_multiplicationReply{
     ReplyHeader header;
-    long long multiplication_ret;
+    long multiplication_ret;
 }; 
 
 #pragma DCPS_DATA_TYPE "Calculator_divisionRequest"
@@ -97,5 +97,5 @@ struct Calculator_divisionRequest{
  */
 struct Calculator_divisionReply{
     ReplyHeader header;
-    long long division_ret;
+    long division_ret;
 }; 

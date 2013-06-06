@@ -72,7 +72,7 @@ class Calculator_additionReplyUtils
          *
          * \param instance Pointer to the structure Calculator_additionReply that will be filled. Cannot be NULL.
          */
-        static void setTypeData(Calculator_additionReply& instance, /*out*/ CORBA::LongLong addition_ret);
+        static void setTypeData(Calculator_additionReply& instance, /*out*/ CORBA::Long addition_ret);
         
         /**
          * \brief This function extracts the parameters from the members of the structure Calculator_additionReply.
@@ -80,7 +80,7 @@ class Calculator_additionReplyUtils
          * \param data Pointer to the structure Calculator_additionReply that contains the parameters' data. Cannot be NULL.
 * \param retcode Internal message returned from the server.
          */
-        static void extractTypeData(Calculator_additionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::LongLong& addition_ret);
+        static void extractTypeData(Calculator_additionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::Long& addition_ret);
 };
 
 
@@ -135,7 +135,7 @@ class Calculator_substractionReplyUtils
          *
          * \param instance Pointer to the structure Calculator_substractionReply that will be filled. Cannot be NULL.
          */
-        static void setTypeData(Calculator_substractionReply& instance, /*out*/ CORBA::LongLong substraction_ret);
+        static void setTypeData(Calculator_substractionReply& instance, /*out*/ CORBA::Long substraction_ret);
         
         /**
          * \brief This function extracts the parameters from the members of the structure Calculator_substractionReply.
@@ -143,7 +143,7 @@ class Calculator_substractionReplyUtils
          * \param data Pointer to the structure Calculator_substractionReply that contains the parameters' data. Cannot be NULL.
 * \param retcode Internal message returned from the server.
          */
-        static void extractTypeData(Calculator_substractionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::LongLong& substraction_ret);
+        static void extractTypeData(Calculator_substractionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::Long& substraction_ret);
 };
 
 
@@ -198,7 +198,7 @@ class Calculator_multiplicationReplyUtils
          *
          * \param instance Pointer to the structure Calculator_multiplicationReply that will be filled. Cannot be NULL.
          */
-        static void setTypeData(Calculator_multiplicationReply& instance, /*out*/ CORBA::LongLong multiplication_ret);
+        static void setTypeData(Calculator_multiplicationReply& instance, /*out*/ CORBA::Long multiplication_ret);
         
         /**
          * \brief This function extracts the parameters from the members of the structure Calculator_multiplicationReply.
@@ -206,7 +206,7 @@ class Calculator_multiplicationReplyUtils
          * \param data Pointer to the structure Calculator_multiplicationReply that contains the parameters' data. Cannot be NULL.
 * \param retcode Internal message returned from the server.
          */
-        static void extractTypeData(Calculator_multiplicationReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::LongLong& multiplication_ret);
+        static void extractTypeData(Calculator_multiplicationReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::Long& multiplication_ret);
 };
 
 
@@ -261,7 +261,7 @@ class Calculator_divisionReplyUtils
          *
          * \param instance Pointer to the structure Calculator_divisionReply that will be filled. Cannot be NULL.
          */
-        static void setTypeData(Calculator_divisionReply& instance, /*out*/ CORBA::LongLong division_ret);
+        static void setTypeData(Calculator_divisionReply& instance, /*out*/ CORBA::Long division_ret);
         
         /**
          * \brief This function extracts the parameters from the members of the structure Calculator_divisionReply.
@@ -269,7 +269,7 @@ class Calculator_divisionReplyUtils
          * \param data Pointer to the structure Calculator_divisionReply that contains the parameters' data. Cannot be NULL.
 * \param retcode Internal message returned from the server.
          */
-        static void extractTypeData(Calculator_divisionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::LongLong& division_ret);
+        static void extractTypeData(Calculator_divisionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ CORBA::Long& division_ret);
 };
 
  

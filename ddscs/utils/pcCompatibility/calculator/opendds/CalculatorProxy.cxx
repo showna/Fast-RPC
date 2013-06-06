@@ -62,10 +62,10 @@ void CalculatorProxy::createRPCs()
 }
 
  
-CORBA::LongLong CalculatorProxy::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorProxy::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    CORBA::LongLong  addition_ret = 0;
+    CORBA::Long  addition_ret = 0;
     Calculator_additionRequest instance;
     Calculator_additionReply retInstance;
 
@@ -98,10 +98,10 @@ CORBA::LongLong CalculatorProxy::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Lo
     return addition_ret;
 }
  
-CORBA::LongLong CalculatorProxy::substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorProxy::substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    CORBA::LongLong  substraction_ret = 0;
+    CORBA::Long  substraction_ret = 0;
     Calculator_substractionRequest instance;
     Calculator_substractionReply retInstance;
 
@@ -134,10 +134,10 @@ CORBA::LongLong CalculatorProxy::substraction(/*in*/ CORBA::Long x, /*in*/ CORBA
     return substraction_ret;
 }
  
-CORBA::LongLong CalculatorProxy::multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorProxy::multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    CORBA::LongLong  multiplication_ret = 0;
+    CORBA::Long  multiplication_ret = 0;
     Calculator_multiplicationRequest instance;
     Calculator_multiplicationReply retInstance;
 
@@ -170,10 +170,10 @@ CORBA::LongLong CalculatorProxy::multiplication(/*in*/ CORBA::Long x, /*in*/ COR
     return multiplication_ret;
 }
  
-CORBA::LongLong CalculatorProxy::division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
+CORBA::Long CalculatorProxy::division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::CLIENT_INTERNAL_ERROR;
-    CORBA::LongLong  division_ret = 0;
+    CORBA::Long  division_ret = 0;
     Calculator_divisionRequest instance;
     Calculator_divisionReply retInstance;
 

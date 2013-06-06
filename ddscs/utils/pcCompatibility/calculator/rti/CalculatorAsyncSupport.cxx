@@ -41,7 +41,7 @@ void* Calculator_additionTask::getReplyInstance()
 
 void Calculator_additionTask::execute()
 {  
-    DDS_LongLong  addition_ret = 0;
+    DDS_Long  addition_ret = 0;
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::OPERATION_SUCCESSFUL;
 	
 	Calculator_additionReplyUtils::extractTypeData(m_reply, retcode, addition_ret);
@@ -86,7 +86,7 @@ void* Calculator_substractionTask::getReplyInstance()
 
 void Calculator_substractionTask::execute()
 {  
-    DDS_LongLong  substraction_ret = 0;
+    DDS_Long  substraction_ret = 0;
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::OPERATION_SUCCESSFUL;
 	
 	Calculator_substractionReplyUtils::extractTypeData(m_reply, retcode, substraction_ret);
@@ -131,7 +131,7 @@ void* Calculator_multiplicationTask::getReplyInstance()
 
 void Calculator_multiplicationTask::execute()
 {  
-    DDS_LongLong  multiplication_ret = 0;
+    DDS_Long  multiplication_ret = 0;
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::OPERATION_SUCCESSFUL;
 	
 	Calculator_multiplicationReplyUtils::extractTypeData(m_reply, retcode, multiplication_ret);
@@ -176,7 +176,7 @@ void* Calculator_divisionTask::getReplyInstance()
 
 void Calculator_divisionTask::execute()
 {  
-    DDS_LongLong  division_ret = 0;
+    DDS_Long  division_ret = 0;
     eProsima::RPCDDS::ReturnMessage retcode = eProsima::RPCDDS::OPERATION_SUCCESSFUL;
 	
 	Calculator_divisionReplyUtils::extractTypeData(m_reply, retcode, division_ret);

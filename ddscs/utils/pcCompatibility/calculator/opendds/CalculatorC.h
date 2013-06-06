@@ -123,28 +123,28 @@ public:
   // TAO_IDL - Generated from
   // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
-  virtual ::CORBA::LongLong addition (
+  virtual ::CORBA::Long addition (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
   // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
-  virtual ::CORBA::LongLong substraction (
+  virtual ::CORBA::Long substraction (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
   // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
-  virtual ::CORBA::LongLong multiplication (
+  virtual ::CORBA::Long multiplication (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
   // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
-  virtual ::CORBA::LongLong division (
+  virtual ::CORBA::Long division (
       ::CORBA::Long x,
       ::CORBA::Long y);
   

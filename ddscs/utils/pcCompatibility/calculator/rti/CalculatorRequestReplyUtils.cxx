@@ -22,7 +22,7 @@ const char* Calculator_additionRequestUtils::registerType(DDS::DomainParticipant
 
     if(participant != NULL)
     {
-        typeName = Calculator_additionRequestTypeSupport::get_type_name();
+        typeName = "Calculator_additionRequest";
 
         if(Calculator_additionRequestTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -54,7 +54,7 @@ const char* Calculator_additionReplyUtils::registerType(DDS::DomainParticipant *
 
     if(participant != NULL)
     {
-        typeName = Calculator_additionReplyTypeSupport::get_type_name();
+        typeName = "Calculator_additionReply";
 
         if(Calculator_additionReplyTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -65,12 +65,12 @@ const char* Calculator_additionReplyUtils::registerType(DDS::DomainParticipant *
     return typeName;
 }
 
-void Calculator_additionReplyUtils::setTypeData(Calculator_additionReply& instance, /*out*/ DDS_LongLong addition_ret)
+void Calculator_additionReplyUtils::setTypeData(Calculator_additionReply& instance, /*out*/ DDS_Long addition_ret)
 {
     instance.addition_ret = addition_ret;            
 }
 
-void Calculator_additionReplyUtils::extractTypeData(Calculator_additionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_LongLong& addition_ret)
+void Calculator_additionReplyUtils::extractTypeData(Calculator_additionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_Long& addition_ret)
 {
 retcode = (eProsima::RPCDDS::ReturnMessage)data.header.rpcddsRetCode;
   
@@ -84,7 +84,7 @@ const char* Calculator_substractionRequestUtils::registerType(DDS::DomainPartici
 
     if(participant != NULL)
     {
-        typeName = Calculator_substractionRequestTypeSupport::get_type_name();
+        typeName = "Calculator_substractionRequest";
 
         if(Calculator_substractionRequestTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -116,7 +116,7 @@ const char* Calculator_substractionReplyUtils::registerType(DDS::DomainParticipa
 
     if(participant != NULL)
     {
-        typeName = Calculator_substractionReplyTypeSupport::get_type_name();
+        typeName = "Calculator_substractionReply";
 
         if(Calculator_substractionReplyTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -127,12 +127,12 @@ const char* Calculator_substractionReplyUtils::registerType(DDS::DomainParticipa
     return typeName;
 }
 
-void Calculator_substractionReplyUtils::setTypeData(Calculator_substractionReply& instance, /*out*/ DDS_LongLong substraction_ret)
+void Calculator_substractionReplyUtils::setTypeData(Calculator_substractionReply& instance, /*out*/ DDS_Long substraction_ret)
 {
     instance.substraction_ret = substraction_ret;            
 }
 
-void Calculator_substractionReplyUtils::extractTypeData(Calculator_substractionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_LongLong& substraction_ret)
+void Calculator_substractionReplyUtils::extractTypeData(Calculator_substractionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_Long& substraction_ret)
 {
 retcode = (eProsima::RPCDDS::ReturnMessage)data.header.rpcddsRetCode;
   
@@ -146,7 +146,7 @@ const char* Calculator_multiplicationRequestUtils::registerType(DDS::DomainParti
 
     if(participant != NULL)
     {
-        typeName = Calculator_multiplicationRequestTypeSupport::get_type_name();
+        typeName = "Calculator_multiplicationRequest";
 
         if(Calculator_multiplicationRequestTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -178,7 +178,7 @@ const char* Calculator_multiplicationReplyUtils::registerType(DDS::DomainPartici
 
     if(participant != NULL)
     {
-        typeName = Calculator_multiplicationReplyTypeSupport::get_type_name();
+        typeName = "Calculator_multiplicationReply";
 
         if(Calculator_multiplicationReplyTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -189,12 +189,12 @@ const char* Calculator_multiplicationReplyUtils::registerType(DDS::DomainPartici
     return typeName;
 }
 
-void Calculator_multiplicationReplyUtils::setTypeData(Calculator_multiplicationReply& instance, /*out*/ DDS_LongLong multiplication_ret)
+void Calculator_multiplicationReplyUtils::setTypeData(Calculator_multiplicationReply& instance, /*out*/ DDS_Long multiplication_ret)
 {
     instance.multiplication_ret = multiplication_ret;            
 }
 
-void Calculator_multiplicationReplyUtils::extractTypeData(Calculator_multiplicationReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_LongLong& multiplication_ret)
+void Calculator_multiplicationReplyUtils::extractTypeData(Calculator_multiplicationReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_Long& multiplication_ret)
 {
 retcode = (eProsima::RPCDDS::ReturnMessage)data.header.rpcddsRetCode;
   
@@ -208,7 +208,7 @@ const char* Calculator_divisionRequestUtils::registerType(DDS::DomainParticipant
 
     if(participant != NULL)
     {
-        typeName = Calculator_divisionRequestTypeSupport::get_type_name();
+        typeName = "Calculator_divisionRequest";
 
         if(Calculator_divisionRequestTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -240,7 +240,7 @@ const char* Calculator_divisionReplyUtils::registerType(DDS::DomainParticipant *
 
     if(participant != NULL)
     {
-        typeName = Calculator_divisionReplyTypeSupport::get_type_name();
+        typeName = "Calculator_divisionReply";
 
         if(Calculator_divisionReplyTypeSupport::register_type(participant, typeName) != DDS::RETCODE_OK)
         {
@@ -251,12 +251,12 @@ const char* Calculator_divisionReplyUtils::registerType(DDS::DomainParticipant *
     return typeName;
 }
 
-void Calculator_divisionReplyUtils::setTypeData(Calculator_divisionReply& instance, /*out*/ DDS_LongLong division_ret)
+void Calculator_divisionReplyUtils::setTypeData(Calculator_divisionReply& instance, /*out*/ DDS_Long division_ret)
 {
     instance.division_ret = division_ret;            
 }
 
-void Calculator_divisionReplyUtils::extractTypeData(Calculator_divisionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_LongLong& division_ret)
+void Calculator_divisionReplyUtils::extractTypeData(Calculator_divisionReply& data, eProsima::RPCDDS::ReturnMessage& retcode, /*out*/ DDS_Long& division_ret)
 {
 retcode = (eProsima::RPCDDS::ReturnMessage)data.header.rpcddsRetCode;
   

@@ -30,7 +30,7 @@ class Calculator_additionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void addition(/*out*/ DDS_LongLong addition_ret) = 0;
+        virtual void addition(/*out*/ DDS_Long addition_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -50,7 +50,7 @@ class Calculator_substractionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void substraction(/*out*/ DDS_LongLong substraction_ret) = 0;
+        virtual void substraction(/*out*/ DDS_Long substraction_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -70,7 +70,7 @@ class Calculator_multiplicationCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void multiplication(/*out*/ DDS_LongLong multiplication_ret) = 0;
+        virtual void multiplication(/*out*/ DDS_Long multiplication_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -90,7 +90,7 @@ class Calculator_divisionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void division(/*out*/ DDS_LongLong division_ret) = 0;
+        virtual void division(/*out*/ DDS_Long division_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -136,13 +136,13 @@ class CalculatorProxy : public eProsima::RPCDDS::Client
         virtual ~CalculatorProxy();
         
          
-        DDS_LongLong addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long addition(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long substraction(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
          
-        DDS_LongLong division(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
+        DDS_Long division(/*in*/ DDS_Long x, /*in*/ DDS_Long y);
         
          
         void addition_async(Calculator_additionCallbackHandler &obj, /*in*/ DDS_Long x, /*in*/ DDS_Long y);

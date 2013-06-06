@@ -2779,8 +2779,8 @@ void gen_find_size(const Calculator_additionReply& stru, size_t& size, size_t& p
   ACE_UNUSED_ARG(size);
   ACE_UNUSED_ARG(padding);
   gen_find_size(stru.header, size, padding);
-  if ((size + padding) % 8) {
-    padding += 8 - ((size + padding) % 8);
+  if ((size + padding) % 4) {
+    padding += 4 - ((size + padding) % 4);
   }
   size += gen_max_marshaled_size(stru.addition_ret);
 }
@@ -5462,7 +5462,7 @@ struct MetaStructImpl<Calculator_additionReply> : MetaStruct {
       return;
     }
     if (std::strcmp(field, "addition_ret") == 0) {
-      static_cast<T*>(lhs)->addition_ret = *static_cast<const CORBA::LongLong*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
+      static_cast<T*>(lhs)->addition_ret = *static_cast<const CORBA::Long*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
       return;
     }
     throw std::runtime_error("Field " + std::string(field) + " not found or its type is not supported (in Struct Calculator_additionReply)");
@@ -8251,8 +8251,8 @@ void gen_find_size(const Calculator_substractionReply& stru, size_t& size, size_
   ACE_UNUSED_ARG(size);
   ACE_UNUSED_ARG(padding);
   gen_find_size(stru.header, size, padding);
-  if ((size + padding) % 8) {
-    padding += 8 - ((size + padding) % 8);
+  if ((size + padding) % 4) {
+    padding += 4 - ((size + padding) % 4);
   }
   size += gen_max_marshaled_size(stru.substraction_ret);
 }
@@ -10934,7 +10934,7 @@ struct MetaStructImpl<Calculator_substractionReply> : MetaStruct {
       return;
     }
     if (std::strcmp(field, "substraction_ret") == 0) {
-      static_cast<T*>(lhs)->substraction_ret = *static_cast<const CORBA::LongLong*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
+      static_cast<T*>(lhs)->substraction_ret = *static_cast<const CORBA::Long*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
       return;
     }
     throw std::runtime_error("Field " + std::string(field) + " not found or its type is not supported (in Struct Calculator_substractionReply)");
@@ -13723,8 +13723,8 @@ void gen_find_size(const Calculator_multiplicationReply& stru, size_t& size, siz
   ACE_UNUSED_ARG(size);
   ACE_UNUSED_ARG(padding);
   gen_find_size(stru.header, size, padding);
-  if ((size + padding) % 8) {
-    padding += 8 - ((size + padding) % 8);
+  if ((size + padding) % 4) {
+    padding += 4 - ((size + padding) % 4);
   }
   size += gen_max_marshaled_size(stru.multiplication_ret);
 }
@@ -16406,7 +16406,7 @@ struct MetaStructImpl<Calculator_multiplicationReply> : MetaStruct {
       return;
     }
     if (std::strcmp(field, "multiplication_ret") == 0) {
-      static_cast<T*>(lhs)->multiplication_ret = *static_cast<const CORBA::LongLong*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
+      static_cast<T*>(lhs)->multiplication_ret = *static_cast<const CORBA::Long*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
       return;
     }
     throw std::runtime_error("Field " + std::string(field) + " not found or its type is not supported (in Struct Calculator_multiplicationReply)");
@@ -19195,8 +19195,8 @@ void gen_find_size(const Calculator_divisionReply& stru, size_t& size, size_t& p
   ACE_UNUSED_ARG(size);
   ACE_UNUSED_ARG(padding);
   gen_find_size(stru.header, size, padding);
-  if ((size + padding) % 8) {
-    padding += 8 - ((size + padding) % 8);
+  if ((size + padding) % 4) {
+    padding += 4 - ((size + padding) % 4);
   }
   size += gen_max_marshaled_size(stru.division_ret);
 }
@@ -21878,7 +21878,7 @@ struct MetaStructImpl<Calculator_divisionReply> : MetaStruct {
       return;
     }
     if (std::strcmp(field, "division_ret") == 0) {
-      static_cast<T*>(lhs)->division_ret = *static_cast<const CORBA::LongLong*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
+      static_cast<T*>(lhs)->division_ret = *static_cast<const CORBA::Long*>(rhsMeta.getRawField(rhs, rhsFieldSpec));
       return;
     }
     throw std::runtime_error("Field " + std::string(field) + " not found or its type is not supported (in Struct Calculator_divisionReply)");

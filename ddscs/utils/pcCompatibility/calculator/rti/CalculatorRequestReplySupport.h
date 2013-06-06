@@ -8,8 +8,8 @@
   or consult the RTI Connext manual.
 */
 
-#ifndef CalculatorRequestReplySupport_540431726_h
-#define CalculatorRequestReplySupport_540431726_h
+#ifndef CalculatorRequestReplySupport_540431706_h
+#define CalculatorRequestReplySupport_540431706_h
 
 /* Uses */
 #include "CalculatorRequestReply.h"
@@ -444,4 +444,4 @@ DDS_DATAREADER_C(Calculator_divisionReplyDataReader, Calculator_divisionReplySeq
 
 
 
-#endif  /* CalculatorRequestReplySupport_540431726_h */
+#endif  /* CalculatorRequestReplySupport_540431706_h */

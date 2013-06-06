@@ -606,7 +606,7 @@ private:
             {
                 try
                 {
-                    DDS_LongLong addition_ret = proxy->addition(firstOp, secondOp);
+                    DDS_Long addition_ret = proxy->addition(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(addition_ret);
                 }
                 catch(eProsima::RPCDDS::Exception &ex)
@@ -618,7 +618,7 @@ private:
             {
                 try
                 {
-                    DDS_LongLong substraction_ret = proxy->substraction(firstOp, secondOp);
+                    DDS_Long substraction_ret = proxy->substraction(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(substraction_ret);
                 }
                 catch(eProsima::RPCDDS::Exception &ex)
@@ -630,7 +630,7 @@ private:
             {
                 try
                 {
-                    DDS_LongLong multiplication_ret = proxy->multiplication(firstOp, secondOp);
+                    DDS_Long multiplication_ret = proxy->multiplication(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(multiplication_ret);
                 }
                 catch(eProsima::RPCDDS::Exception &ex)
@@ -642,7 +642,7 @@ private:
             {
                 try
                 {
-                    DDS_LongLong division_ret = proxy->division(firstOp, secondOp);
+                    DDS_Long division_ret = proxy->division(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(division_ret);
                 }
                 catch(eProsima::RPCDDS::Exception &ex)

@@ -101,7 +101,7 @@ static TAO::TypeCode::Struct_Field<
     _tao_fields_Calculator_additionReply[] =
       {
         { "header", &_tc_ReplyHeader },
-        { "addition_ret", &CORBA::_tc_longlong }
+        { "addition_ret", &CORBA::_tc_long }
       };
   
 static TAO::TypeCode::Struct<
@@ -170,7 +170,7 @@ static TAO::TypeCode::Struct_Field<
     _tao_fields_Calculator_substractionReply[] =
       {
         { "header", &_tc_ReplyHeader },
-        { "substraction_ret", &CORBA::_tc_longlong }
+        { "substraction_ret", &CORBA::_tc_long }
       };
   
 static TAO::TypeCode::Struct<
@@ -239,7 +239,7 @@ static TAO::TypeCode::Struct_Field<
     _tao_fields_Calculator_multiplicationReply[] =
       {
         { "header", &_tc_ReplyHeader },
-        { "multiplication_ret", &CORBA::_tc_longlong }
+        { "multiplication_ret", &CORBA::_tc_long }
       };
   
 static TAO::TypeCode::Struct<
@@ -308,7 +308,7 @@ static TAO::TypeCode::Struct_Field<
     _tao_fields_Calculator_divisionReply[] =
       {
         { "header", &_tc_ReplyHeader },
-        { "division_ret", &CORBA::_tc_longlong }
+        { "division_ret", &CORBA::_tc_long }
       };
   
 static TAO::TypeCode::Struct<

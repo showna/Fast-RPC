@@ -102,7 +102,7 @@ TAO::Collocation_Proxy_Broker *
 // TAO_IDL - Generated from
 // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_cs.cpp:78
 
-::CORBA::LongLong Calculator::addition (
+::CORBA::Long Calculator::addition (
     ::CORBA::Long x,
     ::CORBA::Long y)
 {
@@ -116,7 +116,7 @@ TAO::Collocation_Proxy_Broker *
       Calculator_setup_collocation ();
     }
   
-  TAO::Arg_Traits< ::CORBA::LongLong>::ret_val _tao_retval;
+  TAO::Arg_Traits< ::CORBA::Long>::ret_val _tao_retval;
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_x (x);
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_y (y);
   
@@ -144,7 +144,7 @@ TAO::Collocation_Proxy_Broker *
 // TAO_IDL - Generated from
 // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_cs.cpp:78
 
-::CORBA::LongLong Calculator::substraction (
+::CORBA::Long Calculator::substraction (
     ::CORBA::Long x,
     ::CORBA::Long y)
 {
@@ -158,7 +158,7 @@ TAO::Collocation_Proxy_Broker *
       Calculator_setup_collocation ();
     }
   
-  TAO::Arg_Traits< ::CORBA::LongLong>::ret_val _tao_retval;
+  TAO::Arg_Traits< ::CORBA::Long>::ret_val _tao_retval;
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_x (x);
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_y (y);
   
@@ -186,7 +186,7 @@ TAO::Collocation_Proxy_Broker *
 // TAO_IDL - Generated from
 // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_cs.cpp:78
 
-::CORBA::LongLong Calculator::multiplication (
+::CORBA::Long Calculator::multiplication (
     ::CORBA::Long x,
     ::CORBA::Long y)
 {
@@ -200,7 +200,7 @@ TAO::Collocation_Proxy_Broker *
       Calculator_setup_collocation ();
     }
   
-  TAO::Arg_Traits< ::CORBA::LongLong>::ret_val _tao_retval;
+  TAO::Arg_Traits< ::CORBA::Long>::ret_val _tao_retval;
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_x (x);
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_y (y);
   
@@ -228,7 +228,7 @@ TAO::Collocation_Proxy_Broker *
 // TAO_IDL - Generated from
 // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_cs.cpp:78
 
-::CORBA::LongLong Calculator::division (
+::CORBA::Long Calculator::division (
     ::CORBA::Long x,
     ::CORBA::Long y)
 {
@@ -242,7 +242,7 @@ TAO::Collocation_Proxy_Broker *
       Calculator_setup_collocation ();
     }
   
-  TAO::Arg_Traits< ::CORBA::LongLong>::ret_val _tao_retval;
+  TAO::Arg_Traits< ::CORBA::Long>::ret_val _tao_retval;
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_x (x);
   TAO::Arg_Traits< ::CORBA::Long>::in_arg_val _tao_y (y);
   

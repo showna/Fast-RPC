@@ -34,18 +34,18 @@ int main(int argc, char **argv)
     }
 
     // Create and initialize parameters.
-    CORBA::Long  x = 3;
-    CORBA::Long  y = 4;
+    CORBA::Long  x = 5;
+    CORBA::Long  y = 6;
 
 
     // Create and initialize return value.
-    CORBA::LongLong  addition_ret = 0;
+    CORBA::Long  addition_ret = 0;
 
     // Call to remote procedure "addition".
     try
     {
         addition_ret = proxy->addition(x, y);
-        std::cout << addition_ret << std::endl;
+        std::cout << "ret = " << addition_ret << std::endl;
     }
     catch(eProsima::RPCDDS::Exception &ex)
     {

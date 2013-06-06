@@ -30,7 +30,7 @@ class Calculator_additionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void addition(/*out*/ CORBA::LongLong addition_ret) = 0;
+        virtual void addition(/*out*/ CORBA::Long addition_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -50,7 +50,7 @@ class Calculator_substractionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void substraction(/*out*/ CORBA::LongLong substraction_ret) = 0;
+        virtual void substraction(/*out*/ CORBA::Long substraction_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -70,7 +70,7 @@ class Calculator_multiplicationCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void multiplication(/*out*/ CORBA::LongLong multiplication_ret) = 0;
+        virtual void multiplication(/*out*/ CORBA::Long multiplication_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -90,7 +90,7 @@ class Calculator_divisionCallbackHandler
         /**
          * This function is called when is received the reply from the server.
          */
-        virtual void division(/*out*/ CORBA::LongLong division_ret) = 0;
+        virtual void division(/*out*/ CORBA::Long division_ret) = 0;
         
         /**
          * \brief This function is called when an exception occurs.
@@ -136,13 +136,13 @@ class CalculatorProxy : public eProsima::RPCDDS::Client
         virtual ~CalculatorProxy();
         
          
-        CORBA::LongLong addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long addition(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long substraction(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long multiplication(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
          
-        CORBA::LongLong division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
+        CORBA::Long division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y);
         
          
         void addition_async(Calculator_additionCallbackHandler &obj, /*in*/ CORBA::Long x, /*in*/ CORBA::Long y);

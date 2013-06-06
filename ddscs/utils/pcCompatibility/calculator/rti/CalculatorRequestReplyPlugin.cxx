@@ -1077,7 +1077,7 @@ Calculator_additionReplyPluginSupport_print_data(
         &sample->header, "header", indent_level + 1);
             
 
-    RTICdrType_printLongLong(
+    RTICdrType_printLong(
         &sample->addition_ret, "addition_ret", indent_level + 1);
             
 
@@ -1246,7 +1246,7 @@ Calculator_additionReplyPlugin_serialize(
     }
             
 
-    if (!RTICdrStream_serializeLongLong(
+    if (!RTICdrStream_serializeLong(
         stream, &sample->addition_ret)) {
         return RTI_FALSE;
     }
@@ -1305,7 +1305,7 @@ Calculator_additionReplyPlugin_deserialize_sample(
     }
             
 
-    if (!RTICdrStream_deserializeLongLong(
+    if (!RTICdrStream_deserializeLong(
         stream, &sample->addition_ret)) {
         goto fin;
     }
@@ -1388,7 +1388,7 @@ RTIBool Calculator_additionReplyPlugin_skip(
     }
             
 
-    if (!RTICdrStream_skipLongLong(stream)) {
+    if (!RTICdrStream_skipLong(stream)) {
         goto fin;
     }
             
@@ -1445,7 +1445,7 @@ Calculator_additionReplyPlugin_get_serialized_sample_max_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -1490,7 +1490,7 @@ Calculator_additionReplyPlugin_get_serialized_sample_min_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -1544,7 +1544,7 @@ Calculator_additionReplyPlugin_get_serialized_sample_size(
         current_alignment, &sample->header);
             
 
-    current_alignment += RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment += RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -2913,7 +2913,7 @@ Calculator_substractionReplyPluginSupport_print_data(
         &sample->header, "header", indent_level + 1);
             
 
-    RTICdrType_printLongLong(
+    RTICdrType_printLong(
         &sample->substraction_ret, "substraction_ret", indent_level + 1);
             
 
@@ -3082,7 +3082,7 @@ Calculator_substractionReplyPlugin_serialize(
     }
             
 
-    if (!RTICdrStream_serializeLongLong(
+    if (!RTICdrStream_serializeLong(
         stream, &sample->substraction_ret)) {
         return RTI_FALSE;
     }
@@ -3141,7 +3141,7 @@ Calculator_substractionReplyPlugin_deserialize_sample(
     }
             
 
-    if (!RTICdrStream_deserializeLongLong(
+    if (!RTICdrStream_deserializeLong(
         stream, &sample->substraction_ret)) {
         goto fin;
     }
@@ -3224,7 +3224,7 @@ RTIBool Calculator_substractionReplyPlugin_skip(
     }
             
 
-    if (!RTICdrStream_skipLongLong(stream)) {
+    if (!RTICdrStream_skipLong(stream)) {
         goto fin;
     }
             
@@ -3281,7 +3281,7 @@ Calculator_substractionReplyPlugin_get_serialized_sample_max_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -3326,7 +3326,7 @@ Calculator_substractionReplyPlugin_get_serialized_sample_min_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -3380,7 +3380,7 @@ Calculator_substractionReplyPlugin_get_serialized_sample_size(
         current_alignment, &sample->header);
             
 
-    current_alignment += RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment += RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -4749,7 +4749,7 @@ Calculator_multiplicationReplyPluginSupport_print_data(
         &sample->header, "header", indent_level + 1);
             
 
-    RTICdrType_printLongLong(
+    RTICdrType_printLong(
         &sample->multiplication_ret, "multiplication_ret", indent_level + 1);
             
 
@@ -4918,7 +4918,7 @@ Calculator_multiplicationReplyPlugin_serialize(
     }
             
 
-    if (!RTICdrStream_serializeLongLong(
+    if (!RTICdrStream_serializeLong(
         stream, &sample->multiplication_ret)) {
         return RTI_FALSE;
     }
@@ -4977,7 +4977,7 @@ Calculator_multiplicationReplyPlugin_deserialize_sample(
     }
             
 
-    if (!RTICdrStream_deserializeLongLong(
+    if (!RTICdrStream_deserializeLong(
         stream, &sample->multiplication_ret)) {
         goto fin;
     }
@@ -5060,7 +5060,7 @@ RTIBool Calculator_multiplicationReplyPlugin_skip(
     }
             
 
-    if (!RTICdrStream_skipLongLong(stream)) {
+    if (!RTICdrStream_skipLong(stream)) {
         goto fin;
     }
             
@@ -5117,7 +5117,7 @@ Calculator_multiplicationReplyPlugin_get_serialized_sample_max_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -5162,7 +5162,7 @@ Calculator_multiplicationReplyPlugin_get_serialized_sample_min_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -5216,7 +5216,7 @@ Calculator_multiplicationReplyPlugin_get_serialized_sample_size(
         current_alignment, &sample->header);
             
 
-    current_alignment += RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment += RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -6585,7 +6585,7 @@ Calculator_divisionReplyPluginSupport_print_data(
         &sample->header, "header", indent_level + 1);
             
 
-    RTICdrType_printLongLong(
+    RTICdrType_printLong(
         &sample->division_ret, "division_ret", indent_level + 1);
             
 
@@ -6754,7 +6754,7 @@ Calculator_divisionReplyPlugin_serialize(
     }
             
 
-    if (!RTICdrStream_serializeLongLong(
+    if (!RTICdrStream_serializeLong(
         stream, &sample->division_ret)) {
         return RTI_FALSE;
     }
@@ -6813,7 +6813,7 @@ Calculator_divisionReplyPlugin_deserialize_sample(
     }
             
 
-    if (!RTICdrStream_deserializeLongLong(
+    if (!RTICdrStream_deserializeLong(
         stream, &sample->division_ret)) {
         goto fin;
     }
@@ -6896,7 +6896,7 @@ RTIBool Calculator_divisionReplyPlugin_skip(
     }
             
 
-    if (!RTICdrStream_skipLongLong(stream)) {
+    if (!RTICdrStream_skipLong(stream)) {
         goto fin;
     }
             
@@ -6953,7 +6953,7 @@ Calculator_divisionReplyPlugin_get_serialized_sample_max_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -6998,7 +6998,7 @@ Calculator_divisionReplyPlugin_get_serialized_sample_min_size(
         endpoint_data,RTI_FALSE,encapsulation_id,current_alignment);
             
 
-    current_alignment +=  RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment +=  RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 
@@ -7052,7 +7052,7 @@ Calculator_divisionReplyPlugin_get_serialized_sample_size(
         current_alignment, &sample->header);
             
 
-    current_alignment += RTICdrType_getLongLongMaxSizeSerialized(
+    current_alignment += RTICdrType_getLongMaxSizeSerialized(
         current_alignment);
             
 

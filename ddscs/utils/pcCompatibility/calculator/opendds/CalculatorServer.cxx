@@ -69,7 +69,7 @@ void CalculatorServer::addition(eProsima::RPCDDS::Server *server, void *requestD
     CalculatorServer *srv = dynamic_cast<CalculatorServer*>(server);
     CORBA::Long  x = 0;
     CORBA::Long  y = 0;
-    CORBA::LongLong  addition_ret = 0;   
+    CORBA::Long  addition_ret = 0;   
     Calculator_additionReply replyData;
     
 
@@ -101,7 +101,7 @@ void CalculatorServer::substraction(eProsima::RPCDDS::Server *server, void *requ
     CalculatorServer *srv = dynamic_cast<CalculatorServer*>(server);
     CORBA::Long  x = 0;
     CORBA::Long  y = 0;
-    CORBA::LongLong  substraction_ret = 0;   
+    CORBA::Long  substraction_ret = 0;   
     Calculator_substractionReply replyData;
     
 
@@ -133,7 +133,7 @@ void CalculatorServer::multiplication(eProsima::RPCDDS::Server *server, void *re
     CalculatorServer *srv = dynamic_cast<CalculatorServer*>(server);
     CORBA::Long  x = 0;
     CORBA::Long  y = 0;
-    CORBA::LongLong  multiplication_ret = 0;   
+    CORBA::Long  multiplication_ret = 0;   
     Calculator_multiplicationReply replyData;
     
 
@@ -165,7 +165,7 @@ void CalculatorServer::division(eProsima::RPCDDS::Server *server, void *requestD
     CalculatorServer *srv = dynamic_cast<CalculatorServer*>(server);
     CORBA::Long  x = 0;
     CORBA::Long  y = 0;
-    CORBA::LongLong  division_ret = 0;   
+    CORBA::Long  division_ret = 0;   
     Calculator_divisionReply replyData;
     
 

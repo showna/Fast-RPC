@@ -8,8 +8,8 @@
   or consult the RTI Connext manual.
 */
 
-#ifndef CalculatorRequestReply_540431726_h
-#define CalculatorRequestReply_540431726_h
+#ifndef CalculatorRequestReply_540431706_h
+#define CalculatorRequestReply_540431706_h
 
 #ifndef NDDS_STANDALONE_TYPE
     #ifdef __cplusplus
@@ -166,7 +166,7 @@ public:
     
     ReplyHeader  header;
 
-    DDS_LongLong  addition_ret;
+    DDS_Long  addition_ret;
 
             
 };                        
@@ -348,7 +348,7 @@ public:
     
     ReplyHeader  header;
 
-    DDS_LongLong  substraction_ret;
+    DDS_Long  substraction_ret;
 
             
 };                        
@@ -530,7 +530,7 @@ public:
     
     ReplyHeader  header;
 
-    DDS_LongLong  multiplication_ret;
+    DDS_Long  multiplication_ret;
 
             
 };                        
@@ -712,7 +712,7 @@ public:
     
     ReplyHeader  header;
 
-    DDS_LongLong  division_ret;
+    DDS_Long  division_ret;
 
             
 };                        
@@ -761,4 +761,4 @@ RTIBool Calculator_divisionReply_copy(
 
 
 
-#endif /* CalculatorRequestReply_540431726_h */
+#endif /* CalculatorRequestReply_540431706_h */

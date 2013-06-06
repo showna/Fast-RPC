@@ -8,8 +8,8 @@
   or consult the RTI Connext manual.
 */
 
-#ifndef CalculatorRequestReplyPlugin_540431726_h
-#define CalculatorRequestReplyPlugin_540431726_h
+#ifndef CalculatorRequestReplyPlugin_540431706_h
+#define CalculatorRequestReplyPlugin_540431706_h
 
 #include "CalculatorRequestReply.h"
 
@@ -1701,4 +1701,4 @@ Calculator_divisionReplyPlugin_delete(struct PRESTypePlugin *);
 #define NDDSUSERDllExport
 #endif        
 
-#endif /* CalculatorRequestReplyPlugin_540431726_h */
+#endif /* CalculatorRequestReplyPlugin_540431706_h */
