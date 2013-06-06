@@ -55,7 +55,7 @@ delete $if(void)$($type$$reqrep$*)$endif$$name$;
 
 getTypename(funName, type, name) ::= <<
 $funName$$type$TypeSupport_var ts = new $funName$$type$TypeSupportImpl;
-$name$ = ts->get_type_name();
+$name$ = CORBA::string_dup("$funName$$type$");
 >>
 
 registerTypename(funName, type, name) ::= <<

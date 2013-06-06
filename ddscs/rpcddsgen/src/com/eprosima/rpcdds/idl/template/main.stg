@@ -65,7 +65,7 @@ $type$$reqrep$_finalize(&$name$);
 >>
 
 getTypename(funName, type, name) ::= <<
-$name$ = $funName$$type$TypeSupport::get_type_name();
+$name$ = "$funName$$type$";
 >>
 
 registerTypename(funName, type, name) ::= <<
