@@ -9,9 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Source Files\example">
-      <UniqueIdentifier>{9b5f61bc-aaf5-47e7-bcf9-daf7649bfb0f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\client">
       <UniqueIdentifier>{221de19c-4f48-4fab-801b-e4be8397d3d3}</UniqueIdentifier>
     </Filter>
@@ -20,30 +17,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-        <ClCompile Include="CalculatorRequestReplyUtils.cxx">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="CalculatorC.cpp" >
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="CalculatorRequestReplyC.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="CalculatorRequestReplyTypeSupportC.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="CalculatorRequestReplyTypeSupportImpl.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="CalculatorTypeSupportImpl.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="MessageHeaderC.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
-        <ClCompile Include="MessageHeaderTypeSupportImpl.cpp">
-            <Filter>Source Files\client</Filter>
-        </ClCompile>
+    <ClCompile Include="CalculatorRequestReplyUtils.cxx">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorC.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorRequestReplyC.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorRequestReplyTypeSupportC.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorRequestReplyTypeSupportImpl.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorTypeSupportImpl.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHeaderC.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHeaderTypeSupportImpl.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
     <ClCompile Include="CalculatorProxy.cxx">
       <Filter>Source Files\client</Filter>
     </ClCompile>
@@ -53,35 +50,35 @@
     <ClCompile Include="CalculatorAsyncSupport.cxx">
       <Filter>Source Files\client</Filter>
     </ClCompile>
-    <ClCompile Include="Client.cxx">
-      <Filter>Source Files\example</Filter>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-        <ClInclude Include="CalculatorRequestReplyUtils.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="CalculatorC.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="CalculatorRequestReplyC.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="CalculatorRequestReplyTypeSupportC.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="CalculatorRequestReplyTypeSupportImpl.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="CalculatorTypeSupportImpl.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="MessageHeaderC.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
-        <ClInclude Include="MessageHeaderTypeSupportImpl.h">
-            <Filter>Header Files\client</Filter>
-        </ClInclude>
+    <ClInclude Include="CalculatorRequestReplyUtils.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorC.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorRequestReplyC.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorRequestReplyTypeSupportC.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorRequestReplyTypeSupportImpl.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorTypeSupportImpl.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHeaderC.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHeaderTypeSupportImpl.h">
+      <Filter>Header Files\client</Filter>
+    </ClInclude>
     <ClInclude Include="CalculatorProxy.h">
       <Filter>Header Files\client</Filter>
     </ClInclude>
@@ -90,6 +87,9 @@
     </ClInclude>
     <ClInclude Include="CalculatorAsyncSupport.h">
       <Filter>Header Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
