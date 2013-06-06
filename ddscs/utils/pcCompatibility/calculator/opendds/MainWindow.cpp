@@ -5,6 +5,7 @@ using namespace CalculatorClient;
 [STAThreadAttribute]
 int cmain(array<System::String ^> ^args)
 {
+    ACE::init();
 	// Enabling Windows XP visual effects before any controls are created
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false); 
