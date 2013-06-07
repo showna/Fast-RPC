@@ -28,7 +28,7 @@ namespace CalculatorClient {
 
             try
             {
-                proxy = new CalculatorProxy("OpenDDSCalculatorService", 101);
+                proxy = new CalculatorProxy("OpenDDSCalculatorService");
             }
             catch(eProsima::RPCDDS::InitializeException &ex)
             {
@@ -686,7 +686,7 @@ private:
 
             delete proxy;
             proxy = NULL;
-            proxy = new CalculatorProxy("RTICalculatorService", 100);
+            proxy = new CalculatorProxy("RTICalculatorService");
 
             this->Text = L"Calculator (OpenDDS)";
         }
@@ -702,7 +702,7 @@ private:
 
             delete proxy;
             proxy = NULL;
-            proxy = new CalculatorProxy("OpenDDSCalculatorService", 101);
+            proxy = new CalculatorProxy("OpenDDSCalculatorService");
 
             this->Text = L"Calculator (OpenDDS)";
         }
