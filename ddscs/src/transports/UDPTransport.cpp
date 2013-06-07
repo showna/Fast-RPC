@@ -56,29 +56,36 @@ namespace eProsima
 #elif (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
             const char* const METHOD_NAME = "setTransport";
             int returnedValue = -1;
-            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->create_config("rpcdds_config");
+            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config("rpcdds_config");
 
-            if(cfg != NULL)
-            {
-                OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
+            if(cfg.is_nil())
+            {        
+                cfg = TheTransportRegistry->create_config("rpcdds_config");
 
-                if(inst != NULL)
+                if(cfg != NULL)
                 {
-                    OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
-                    cfg->instances_.push_back(inst);
-                    TheTransportRegistry->global_config(cfg);
+                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
 
-                    returnedValue = 0;
+                    if(inst != NULL)
+                    {
+                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
+                        cfg->instances_.push_back(inst);
+                        TheTransportRegistry->global_config(cfg);
+
+                        returnedValue = 0;
+                    }
+                    else
+                    {
+                        printf("ERROR<%s::%s>: Cannot create transport instance\n", CLASS_NAME, METHOD_NAME);
+                    }
                 }
                 else
                 {
-                    printf("ERROR<%s::%s>: Cannot create transport instance\n", CLASS_NAME, METHOD_NAME);
+                    printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
                 }
             }
             else
-            {
-                printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
-            }
+                return 0;
 
             return returnedValue;
 #endif
@@ -99,29 +106,36 @@ namespace eProsima
 #elif (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
             const char* const METHOD_NAME = "setTransport";
             int returnedValue = -1;
-            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->create_config("rpcdds_config");
+            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config("rpcdds_config");
 
-            if(cfg != NULL)
-            {
-                OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
+            if(cfg.is_nil())
+            {        
+                cfg = TheTransportRegistry->create_config("rpcdds_config");
 
-                if(inst != NULL)
+                if(cfg != NULL)
                 {
-                    OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
-                    cfg->instances_.push_back(inst);
-                    TheTransportRegistry->global_config(cfg);
+                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
 
-                    returnedValue = 0;
+                    if(inst != NULL)
+                    {
+                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
+                        cfg->instances_.push_back(inst);
+                        TheTransportRegistry->global_config(cfg);
+
+                        returnedValue = 0;
+                    }
+                    else
+                    {
+                        printf("ERROR<%s::%s>: Cannot create transport instance\n", CLASS_NAME, METHOD_NAME);
+                    }
                 }
                 else
                 {
-                    printf("ERROR<%s::%s>: Cannot create transport instance\n", CLASS_NAME, METHOD_NAME);
+                    printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
                 }
             }
             else
-            {
-                printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
-            }
+                return 0;
 
             return returnedValue;
 #endif

@@ -29,7 +29,7 @@ int main(int argc, char **argv)
     try
     {
         pool = new eProsima::RPCDDS::ThreadPoolStrategy(threadPoolSize);
-        server = new CalculatorServer("RTICalculatorService", pool, 100);
+        server = new CalculatorServer("RTICalculatorService", pool);
         server->serve();
     }
     catch(eProsima::RPCDDS::InitializeException &ex)
