@@ -28,8 +28,8 @@
 // TAO_IDL - Generated from
 // be\be_codegen.cpp:135
 
-#ifndef _TAO_IDL_OPENDDS_CALCULATORREQUESTREPLYC_H_
-#define _TAO_IDL_OPENDDS_CALCULATORREQUESTREPLYC_H_
+#ifndef _TAO_IDL_IDL_CALCULATORREQUESTREPLYC_H_
+#define _TAO_IDL_IDL_CALCULATORREQUESTREPLYC_H_
 
 
 #include /**/ "ace/config-all.h"
@@ -72,7 +72,7 @@ typedef
   Calculator_additionRequest_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_additionRequest
 {
@@ -86,7 +86,7 @@ struct  Calculator_additionRequest
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionRequest;
 
@@ -108,7 +108,7 @@ typedef
   Calculator_additionReply_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_additionReply
 {
@@ -121,7 +121,7 @@ struct  Calculator_additionReply
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionReply;
 
@@ -143,7 +143,7 @@ typedef
   Calculator_substractionRequest_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_substractionRequest
 {
@@ -157,7 +157,7 @@ struct  Calculator_substractionRequest
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionRequest;
 
@@ -179,7 +179,7 @@ typedef
   Calculator_substractionReply_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_substractionReply
 {
@@ -192,7 +192,7 @@ struct  Calculator_substractionReply
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionReply;
 
@@ -214,7 +214,7 @@ typedef
   Calculator_multiplicationRequest_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_multiplicationRequest
 {
@@ -228,7 +228,7 @@ struct  Calculator_multiplicationRequest
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationRequest;
 
@@ -250,7 +250,7 @@ typedef
   Calculator_multiplicationReply_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_multiplicationReply
 {
@@ -263,7 +263,7 @@ struct  Calculator_multiplicationReply
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationReply;
 
@@ -285,7 +285,7 @@ typedef
   Calculator_divisionRequest_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_divisionRequest
 {
@@ -299,7 +299,7 @@ struct  Calculator_divisionRequest
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionRequest;
 
@@ -321,7 +321,7 @@ typedef
   Calculator_divisionReply_out;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Calculator_divisionReply
 {
@@ -334,7 +334,7 @@ struct  Calculator_divisionReply
 };
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionReply;
 
@@ -352,7 +352,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -365,7 +365,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -378,7 +378,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -391,7 +391,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -404,7 +404,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -417,7 +417,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -430,7 +430,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -443,7 +443,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL

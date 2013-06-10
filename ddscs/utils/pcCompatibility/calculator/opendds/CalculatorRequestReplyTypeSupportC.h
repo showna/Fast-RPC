@@ -28,8 +28,8 @@
 // TAO_IDL - Generated from
 // be\be_codegen.cpp:135
 
-#ifndef _TAO_IDL_OPENDDS_CALCULATORREQUESTREPLYTYPESUPPORTC_H_
-#define _TAO_IDL_OPENDDS_CALCULATORREQUESTREPLYTYPESUPPORTC_H_
+#ifndef _TAO_IDL_IDL_CALCULATORREQUESTREPLYTYPESUPPORTC_H_
+#define _TAO_IDL_IDL_CALCULATORREQUESTREPLYTYPESUPPORTC_H_
 
 
 #include /**/ "ace/config-all.h"
@@ -65,7 +65,7 @@
 #define TAO_EXPORT_MACRO 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -96,7 +96,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREQUESTTYPESUPPORT_CH_)
 #define _CALCULATOR_ADDITIONREQUESTTYPESUPPORT_CH_
@@ -124,7 +124,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -146,7 +146,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionRequestTypeSupport;
 
@@ -174,7 +174,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREQUESTDATAWRITER_CH_)
 #define _CALCULATOR_ADDITIONREQUESTDATAWRITER_CH_
@@ -202,27 +202,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_additionRequest & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_additionRequest & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_additionRequest & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_additionRequest & instance,
@@ -230,14 +230,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_additionRequest & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_additionRequest & instance_data,
@@ -245,14 +245,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_additionRequest & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_additionRequest & instance_data,
@@ -260,20 +260,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_additionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_additionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -295,7 +295,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionRequestDataWriter;
 
@@ -323,7 +323,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREQUESTDATAREADER_CH_)
 #define _CALCULATOR_ADDITIONREQUESTDATAREADER_CH_
@@ -351,7 +351,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_additionRequestSeq & received_data,
@@ -362,7 +362,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_additionRequestSeq & received_data,
@@ -373,7 +373,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_additionRequestSeq & data_values,
@@ -382,7 +382,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_additionRequestSeq & data_values,
@@ -391,21 +391,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_additionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_additionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_additionRequestSeq & received_data,
@@ -417,7 +417,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_additionRequestSeq & received_data,
@@ -429,7 +429,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_additionRequestSeq & received_data,
@@ -441,7 +441,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_additionRequestSeq & received_data,
@@ -453,7 +453,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_additionRequestSeq & data_values,
@@ -463,7 +463,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_additionRequestSeq & data_values,
@@ -473,27 +473,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_additionRequestSeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_additionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_additionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -515,12 +515,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionRequestDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -551,7 +551,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREPLYTYPESUPPORT_CH_)
 #define _CALCULATOR_ADDITIONREPLYTYPESUPPORT_CH_
@@ -579,7 +579,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -601,7 +601,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionReplyTypeSupport;
 
@@ -629,7 +629,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREPLYDATAWRITER_CH_)
 #define _CALCULATOR_ADDITIONREPLYDATAWRITER_CH_
@@ -657,27 +657,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_additionReply & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_additionReply & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_additionReply & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_additionReply & instance,
@@ -685,14 +685,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_additionReply & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_additionReply & instance_data,
@@ -700,14 +700,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_additionReply & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_additionReply & instance_data,
@@ -715,20 +715,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_additionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_additionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -750,7 +750,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionReplyDataWriter;
 
@@ -778,7 +778,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_ADDITIONREPLYDATAREADER_CH_)
 #define _CALCULATOR_ADDITIONREPLYDATAREADER_CH_
@@ -806,7 +806,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_additionReplySeq & received_data,
@@ -817,7 +817,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_additionReplySeq & received_data,
@@ -828,7 +828,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_additionReplySeq & data_values,
@@ -837,7 +837,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_additionReplySeq & data_values,
@@ -846,21 +846,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_additionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_additionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_additionReplySeq & received_data,
@@ -872,7 +872,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_additionReplySeq & received_data,
@@ -884,7 +884,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_additionReplySeq & received_data,
@@ -896,7 +896,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_additionReplySeq & received_data,
@@ -908,7 +908,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_additionReplySeq & data_values,
@@ -918,7 +918,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_additionReplySeq & data_values,
@@ -928,27 +928,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_additionReplySeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_additionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_additionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -970,12 +970,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_additionReplyDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -1006,7 +1006,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREQUESTTYPESUPPORT_CH_)
 #define _CALCULATOR_SUBSTRACTIONREQUESTTYPESUPPORT_CH_
@@ -1034,7 +1034,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1056,7 +1056,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionRequestTypeSupport;
 
@@ -1084,7 +1084,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREQUESTDATAWRITER_CH_)
 #define _CALCULATOR_SUBSTRACTIONREQUESTDATAWRITER_CH_
@@ -1112,27 +1112,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_substractionRequest & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_substractionRequest & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_substractionRequest & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_substractionRequest & instance,
@@ -1140,14 +1140,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_substractionRequest & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_substractionRequest & instance_data,
@@ -1155,14 +1155,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_substractionRequest & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_substractionRequest & instance_data,
@@ -1170,20 +1170,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_substractionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_substractionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1205,7 +1205,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionRequestDataWriter;
 
@@ -1233,7 +1233,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREQUESTDATAREADER_CH_)
 #define _CALCULATOR_SUBSTRACTIONREQUESTDATAREADER_CH_
@@ -1261,7 +1261,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1272,7 +1272,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1283,7 +1283,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_substractionRequestSeq & data_values,
@@ -1292,7 +1292,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_substractionRequestSeq & data_values,
@@ -1301,21 +1301,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_substractionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_substractionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1327,7 +1327,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1339,7 +1339,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1351,7 +1351,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_substractionRequestSeq & received_data,
@@ -1363,7 +1363,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_substractionRequestSeq & data_values,
@@ -1373,7 +1373,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_substractionRequestSeq & data_values,
@@ -1383,27 +1383,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_substractionRequestSeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_substractionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_substractionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1425,12 +1425,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionRequestDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -1461,7 +1461,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREPLYTYPESUPPORT_CH_)
 #define _CALCULATOR_SUBSTRACTIONREPLYTYPESUPPORT_CH_
@@ -1489,7 +1489,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1511,7 +1511,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionReplyTypeSupport;
 
@@ -1539,7 +1539,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREPLYDATAWRITER_CH_)
 #define _CALCULATOR_SUBSTRACTIONREPLYDATAWRITER_CH_
@@ -1567,27 +1567,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_substractionReply & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_substractionReply & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_substractionReply & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_substractionReply & instance,
@@ -1595,14 +1595,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_substractionReply & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_substractionReply & instance_data,
@@ -1610,14 +1610,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_substractionReply & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_substractionReply & instance_data,
@@ -1625,20 +1625,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_substractionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_substractionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1660,7 +1660,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionReplyDataWriter;
 
@@ -1688,7 +1688,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_SUBSTRACTIONREPLYDATAREADER_CH_)
 #define _CALCULATOR_SUBSTRACTIONREPLYDATAREADER_CH_
@@ -1716,7 +1716,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_substractionReplySeq & received_data,
@@ -1727,7 +1727,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_substractionReplySeq & received_data,
@@ -1738,7 +1738,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_substractionReplySeq & data_values,
@@ -1747,7 +1747,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_substractionReplySeq & data_values,
@@ -1756,21 +1756,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_substractionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_substractionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_substractionReplySeq & received_data,
@@ -1782,7 +1782,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_substractionReplySeq & received_data,
@@ -1794,7 +1794,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_substractionReplySeq & received_data,
@@ -1806,7 +1806,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_substractionReplySeq & received_data,
@@ -1818,7 +1818,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_substractionReplySeq & data_values,
@@ -1828,7 +1828,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_substractionReplySeq & data_values,
@@ -1838,27 +1838,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_substractionReplySeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_substractionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_substractionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1880,12 +1880,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_substractionReplyDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -1916,7 +1916,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREQUESTTYPESUPPORT_CH_)
 #define _CALCULATOR_MULTIPLICATIONREQUESTTYPESUPPORT_CH_
@@ -1944,7 +1944,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -1966,7 +1966,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationRequestTypeSupport;
 
@@ -1994,7 +1994,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREQUESTDATAWRITER_CH_)
 #define _CALCULATOR_MULTIPLICATIONREQUESTDATAWRITER_CH_
@@ -2022,27 +2022,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_multiplicationRequest & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_multiplicationRequest & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_multiplicationRequest & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_multiplicationRequest & instance,
@@ -2050,14 +2050,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_multiplicationRequest & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_multiplicationRequest & instance_data,
@@ -2065,14 +2065,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_multiplicationRequest & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_multiplicationRequest & instance_data,
@@ -2080,20 +2080,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_multiplicationRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_multiplicationRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2115,7 +2115,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationRequestDataWriter;
 
@@ -2143,7 +2143,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREQUESTDATAREADER_CH_)
 #define _CALCULATOR_MULTIPLICATIONREQUESTDATAREADER_CH_
@@ -2171,7 +2171,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2182,7 +2182,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2193,7 +2193,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_multiplicationRequestSeq & data_values,
@@ -2202,7 +2202,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_multiplicationRequestSeq & data_values,
@@ -2211,21 +2211,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_multiplicationRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_multiplicationRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2237,7 +2237,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2249,7 +2249,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2261,7 +2261,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_multiplicationRequestSeq & received_data,
@@ -2273,7 +2273,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_multiplicationRequestSeq & data_values,
@@ -2283,7 +2283,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_multiplicationRequestSeq & data_values,
@@ -2293,27 +2293,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_multiplicationRequestSeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_multiplicationRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_multiplicationRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2335,12 +2335,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationRequestDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -2371,7 +2371,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREPLYTYPESUPPORT_CH_)
 #define _CALCULATOR_MULTIPLICATIONREPLYTYPESUPPORT_CH_
@@ -2399,7 +2399,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2421,7 +2421,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationReplyTypeSupport;
 
@@ -2449,7 +2449,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREPLYDATAWRITER_CH_)
 #define _CALCULATOR_MULTIPLICATIONREPLYDATAWRITER_CH_
@@ -2477,27 +2477,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_multiplicationReply & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_multiplicationReply & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_multiplicationReply & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_multiplicationReply & instance,
@@ -2505,14 +2505,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_multiplicationReply & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_multiplicationReply & instance_data,
@@ -2520,14 +2520,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_multiplicationReply & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_multiplicationReply & instance_data,
@@ -2535,20 +2535,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_multiplicationReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_multiplicationReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2570,7 +2570,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationReplyDataWriter;
 
@@ -2598,7 +2598,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_MULTIPLICATIONREPLYDATAREADER_CH_)
 #define _CALCULATOR_MULTIPLICATIONREPLYDATAREADER_CH_
@@ -2626,7 +2626,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2637,7 +2637,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2648,7 +2648,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_multiplicationReplySeq & data_values,
@@ -2657,7 +2657,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_multiplicationReplySeq & data_values,
@@ -2666,21 +2666,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_multiplicationReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_multiplicationReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2692,7 +2692,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2704,7 +2704,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2716,7 +2716,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_multiplicationReplySeq & received_data,
@@ -2728,7 +2728,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_multiplicationReplySeq & data_values,
@@ -2738,7 +2738,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_multiplicationReplySeq & data_values,
@@ -2748,27 +2748,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_multiplicationReplySeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_multiplicationReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_multiplicationReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2790,12 +2790,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_multiplicationReplyDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -2826,7 +2826,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREQUESTTYPESUPPORT_CH_)
 #define _CALCULATOR_DIVISIONREQUESTTYPESUPPORT_CH_
@@ -2854,7 +2854,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -2876,7 +2876,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionRequestTypeSupport;
 
@@ -2904,7 +2904,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREQUESTDATAWRITER_CH_)
 #define _CALCULATOR_DIVISIONREQUESTDATAWRITER_CH_
@@ -2932,27 +2932,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_divisionRequest & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_divisionRequest & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_divisionRequest & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_divisionRequest & instance,
@@ -2960,14 +2960,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_divisionRequest & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_divisionRequest & instance_data,
@@ -2975,14 +2975,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_divisionRequest & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_divisionRequest & instance_data,
@@ -2990,20 +2990,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_divisionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_divisionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -3025,7 +3025,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionRequestDataWriter;
 
@@ -3053,7 +3053,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREQUESTDATAREADER_CH_)
 #define _CALCULATOR_DIVISIONREQUESTDATAREADER_CH_
@@ -3081,7 +3081,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3092,7 +3092,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3103,7 +3103,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_divisionRequestSeq & data_values,
@@ -3112,7 +3112,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_divisionRequestSeq & data_values,
@@ -3121,21 +3121,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_divisionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_divisionRequest & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3147,7 +3147,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3159,7 +3159,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3171,7 +3171,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_divisionRequestSeq & received_data,
@@ -3183,7 +3183,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_divisionRequestSeq & data_values,
@@ -3193,7 +3193,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_divisionRequestSeq & data_values,
@@ -3203,27 +3203,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_divisionRequestSeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_divisionRequest & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_divisionRequest & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -3245,12 +3245,12 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionRequestDataReader;
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_native/native_ch.cpp:55
 
 
 
@@ -3281,7 +3281,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREPLYTYPESUPPORT_CH_)
 #define _CALCULATOR_DIVISIONREPLYTYPESUPPORT_CH_
@@ -3309,7 +3309,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -3331,7 +3331,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionReplyTypeSupport;
 
@@ -3359,7 +3359,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREPLYDATAWRITER_CH_)
 #define _CALCULATOR_DIVISIONREPLYDATAWRITER_CH_
@@ -3387,27 +3387,27 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance (
       const ::Calculator_divisionReply & instance) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t register_instance_w_timestamp (
       const ::Calculator_divisionReply & instance,
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance (
       const ::Calculator_divisionReply & instance,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t unregister_instance_w_timestamp (
       const ::Calculator_divisionReply & instance,
@@ -3415,14 +3415,14 @@ public:
       const ::DDS::Time_t & timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write (
       const ::Calculator_divisionReply & instance_data,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t write_w_timestamp (
       const ::Calculator_divisionReply & instance_data,
@@ -3430,14 +3430,14 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose (
       const ::Calculator_divisionReply & instance_data,
       ::DDS::InstanceHandle_t instance_handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t dispose_w_timestamp (
       const ::Calculator_divisionReply & instance_data,
@@ -3445,20 +3445,20 @@ public:
       const ::DDS::Time_t & source_timestamp) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_divisionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_divisionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -3480,7 +3480,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionReplyDataWriter;
 
@@ -3508,7 +3508,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_DIVISIONREPLYDATAREADER_CH_)
 #define _CALCULATOR_DIVISIONREPLYDATAREADER_CH_
@@ -3536,7 +3536,7 @@ public:
   
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read (
       ::Calculator_divisionReplySeq & received_data,
@@ -3547,7 +3547,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take (
       ::Calculator_divisionReplySeq & received_data,
@@ -3558,7 +3558,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_w_condition (
       ::Calculator_divisionReplySeq & data_values,
@@ -3567,7 +3567,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_w_condition (
       ::Calculator_divisionReplySeq & data_values,
@@ -3576,21 +3576,21 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_sample (
       ::Calculator_divisionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_sample (
       ::Calculator_divisionReply & received_data,
       ::DDS::SampleInfo & sample_info) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_instance (
       ::Calculator_divisionReplySeq & received_data,
@@ -3602,7 +3602,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_instance (
       ::Calculator_divisionReplySeq & received_data,
@@ -3614,7 +3614,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance (
       ::Calculator_divisionReplySeq & received_data,
@@ -3626,7 +3626,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance (
       ::Calculator_divisionReplySeq & received_data,
@@ -3638,7 +3638,7 @@ public:
       ::DDS::InstanceStateMask instance_states) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t read_next_instance_w_condition (
       ::Calculator_divisionReplySeq & data_values,
@@ -3648,7 +3648,7 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t take_next_instance_w_condition (
       ::Calculator_divisionReplySeq & data_values,
@@ -3658,27 +3658,27 @@ public:
       ::DDS::ReadCondition_ptr a_condition) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t return_loan (
       ::Calculator_divisionReplySeq & received_data,
       ::DDS::SampleInfoSeq & info_seq) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::ReturnCode_t get_key_value (
       ::Calculator_divisionReply & key_holder,
       ::DDS::InstanceHandle_t handle) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::DDS::InstanceHandle_t lookup_instance (
       const ::Calculator_divisionReply & instance_data) = 0;
   
   // TAO_IDL - Generated from
-  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -3700,7 +3700,7 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator_divisionReplyDataReader;
 

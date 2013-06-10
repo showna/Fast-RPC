@@ -27,7 +27,7 @@
 
 
 // TAO_IDL - Generated from
-// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ci.cpp:70
+// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ci.cpp:70
 
 #if !defined (_CALCULATOR___CI_)
 #define _CALCULATOR___CI_
