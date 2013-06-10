@@ -46,12 +46,6 @@ namespace CalculatorClient {
 			{
 				delete components;
 			}
-
-            if(m_openproxy != NULL)
-                delete m_openproxy;
-
-            if(m_rtiproxy != NULL)
-                delete m_rtiproxy;
 		}
 
 	private:
@@ -94,7 +88,7 @@ namespace CalculatorClient {
     private: System::Windows::Forms::Button^  bBorrar;
 
 
-        static CalculatorProxy *m_openproxy = NULL, *m_rtiproxy = NULL;
+             public: static CalculatorProxy *m_openproxy = NULL, *m_rtiproxy = NULL;
         static int firstOp = 0, secondOp = 0, operation = 0, secondOpPosition = 0, serverSelected = 1;
         static bool close = true;
     private: System::Windows::Forms::GroupBox^  serversBox;

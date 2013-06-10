@@ -12,6 +12,12 @@ int cmain(array<System::String ^> ^args)
 
 	// Create the main window and run it
 	Application::Run(gcnew MainWindow());
+
+    if(MainWindow::m_openproxy != NULL)
+        delete MainWindow::m_openproxy;
+
+    if(MainWindow::m_rtiproxy != NULL)
+        delete MainWindow::m_rtiproxy;
    
     return 0;
 }
