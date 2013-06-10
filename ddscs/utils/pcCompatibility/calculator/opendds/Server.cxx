@@ -18,6 +18,7 @@
 #include "utils/Utilities.h"
 
 #include <iostream>
+#include <string>
 
 int main(int argc, char **argv)
 {
@@ -38,10 +39,9 @@ int main(int argc, char **argv)
         return -1;
     }
     
-    while(1)
-    {
-        eProsima::RPCDDS::sleep(10000);
-    }
+    std::cout << "Press a key + ENTER to exit the server" << std::endl;
+    std::string line;
+    std::cin >> line;
     
     // Stop and delete the server.
     server->stop();
