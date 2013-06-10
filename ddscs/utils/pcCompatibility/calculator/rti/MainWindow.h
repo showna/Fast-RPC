@@ -28,7 +28,8 @@ namespace CalculatorClient {
 
             try
             {
-                proxy = new CalculatorProxy("RTICalculatorService");
+                m_openproxy = new CalculatorProxy("OpenDDSCalculatorService");
+                m_rtiproxy = new CalculatorProxy("RTICalculatorService");
             }
             catch(eProsima::RPCDDS::InitializeException &ex)
             {
@@ -46,8 +47,11 @@ namespace CalculatorClient {
 				delete components;
 			}
 
-            if(proxy != NULL)
-                delete proxy;
+            if(m_openproxy != NULL)
+                delete m_openproxy;
+
+            if(m_rtiproxy != NULL)
+                delete m_rtiproxy;
 		}
 
 	private:
@@ -90,8 +94,8 @@ namespace CalculatorClient {
     private: System::Windows::Forms::Button^  bBorrar;
 
 
-        static CalculatorProxy *proxy = NULL;
-        static int firstOp = 0, secondOp = 0, operation = 0, secondOpPosition = 0, server = 0;
+        static CalculatorProxy *m_openproxy = NULL, *m_rtiproxy = NULL;
+        static int firstOp = 0, secondOp = 0, operation = 0, secondOpPosition = 0, serverSelected = 0;
         static bool close = true;
     private: System::Windows::Forms::GroupBox^  serversBox;
     private: System::Windows::Forms::RadioButton^  openddsButton;
@@ -599,6 +603,7 @@ private:
         {
             System::String ^s = this->txtBox->Text->Substring(secondOpPosition);
             secondOp = Convert::ToInt32(s);
+            CalculatorProxy *proxy = (serverSelected == 0 ? m_rtiproxy : m_openproxy);
 
             this->Text = L"Calculator (RTI DDS) ... Sending";
 
@@ -679,33 +684,17 @@ private:
 
     System::Void rtiButton_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(server != 0)
+        if(serverSelected != 0)
         {
-            this->Text = L"Calculator (RTI DDS) ... Connecting";
-
-            server = 0;
-
-            delete proxy;
-            proxy = NULL;
-            proxy = new CalculatorProxy("RTICalculatorService");
-
-            this->Text = L"Calculator (RTI DDS)";
+            serverSelected = 0;
         }
     }
 
     System::Void openddsButton_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(server != 1)
+        if(serverSelected != 1)
         {
-            this->Text = L"Calculator (RTI DDS) ... Connecting";
-
-            server = 1;
-
-            delete proxy;
-            proxy = NULL;
-            proxy = new CalculatorProxy("OpenDDSCalculatorService");
-
-            this->Text = L"Calculator (RTI DDS)";
+            serverSelected = 1;
         }
     }
 };
