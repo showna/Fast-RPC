@@ -90,7 +90,7 @@ inclVS() ::= <<
 
 libsMake(example) ::= <<
  -L\$(DDS_ROOT)/lib -L\$(ACE_ROOT)/lib -L\$(RPCDDSHOME)/lib/$example$ \
-       -lOpenDDS_Dcps -lTAO -lTAO_AnyTypeCode -lACE
+       -lOpenDDS_Dcps -lTAO -lTAO_AnyTypeCode -lACE -lrpcddso
 >>
 
 libsVS(example) ::= <<
