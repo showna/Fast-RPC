@@ -25,12 +25,16 @@ int main(int argc, char **argv)
     unsigned int threadPoolSize = 5;
     eProsima::RPCDDS::ThreadPoolStrategy *pool = NULL;
     CalculatorServer *server = NULL;
+    int domainId = 13;
+
+    if(argc >= 2)
+        domainId = atoi(argv[1]);
     
     // Create and initialize the server for interface "Calculator".
     try
     {
         pool = new eProsima::RPCDDS::ThreadPoolStrategy(threadPoolSize);
-        server = new CalculatorServer("OpenDDSCalculatorService", pool, 13);
+        server = new CalculatorServer("OpenDDSCalculatorService", pool, domainId);
         server->serve();
     }
     catch(eProsima::RPCDDS::InitializeException &ex)

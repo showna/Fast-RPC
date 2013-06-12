@@ -68,7 +68,7 @@ namespace eProsima
 
                     if(inst != NULL)
                     {
-                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
+                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = false;
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->heartbeat_period_ = ACE_Time_Value(3);
                         cfg->instances_.push_back(inst);
                         TheTransportRegistry->global_config(cfg);
@@ -119,7 +119,7 @@ namespace eProsima
 
                     if(inst != NULL)
                     {
-                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = true;
+                        OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = false;
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->heartbeat_period_ = ACE_Time_Value(3);
                         cfg->instances_.push_back(inst);
                         TheTransportRegistry->global_config(cfg);
