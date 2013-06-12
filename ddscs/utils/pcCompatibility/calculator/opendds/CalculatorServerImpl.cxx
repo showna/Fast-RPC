@@ -13,6 +13,7 @@
  */
  
 #include "CalculatorServerImpl.h"
+#include "exceptions/ServerInternalException.h"
 #include <iostream>
 
  
@@ -49,6 +50,9 @@ CORBA::Long CalculatorServerImpl::multiplication(/*in*/ CORBA::Long x, /*in*/ CO
 CORBA::Long CalculatorServerImpl::division(/*in*/ CORBA::Long x, /*in*/ CORBA::Long y) 
 {
     CORBA::Long  division_ret = 0;
+
+    if(y == 0)
+        throw eProsima::RPCDDS::ServerInternalException("Division by zero");
 
     division_ret = x / y;
     std::cout << "division(" << x << ", " << y << ")" << std::endl;

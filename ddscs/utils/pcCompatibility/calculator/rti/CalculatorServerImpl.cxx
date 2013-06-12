@@ -13,6 +13,7 @@
  */
  
 #include "CalculatorServerImpl.h"
+#include "exceptions/ServerInternalException.h"
 #include <iostream>
 
  
@@ -49,6 +50,9 @@ DDS_Long CalculatorServerImpl::multiplication(/*in*/ DDS_Long x, /*in*/ DDS_Long
 DDS_Long CalculatorServerImpl::division(/*in*/ DDS_Long x, /*in*/ DDS_Long y) 
 {
     DDS_Long  division_ret = 0;
+
+    if(y == 0)
+        throw eProsima::RPCDDS::ServerInternalException("Division by zero");
 
     division_ret = x / y;
     std::cout << "division(" << x << ", " << y << ")" << std::endl;

@@ -3,6 +3,7 @@
 #include "CalculatorProxy.h"
 #include "CalculatorRequestReplyPlugin.h"
 #include "exceptions/Exceptions.h"
+#include "exceptions/ServerTimeoutException.h"
 
 namespace CalculatorClient {
 
@@ -100,6 +101,10 @@ namespace CalculatorClient {
     private: System::Windows::Forms::GroupBox^  serversBox;
     private: System::Windows::Forms::RadioButton^  openddsButton;
     private: System::Windows::Forms::RadioButton^  rtiButton;
+    private: System::Windows::Forms::StatusStrip^  statusStrip;
+    private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel1;
+
+
     private: System::Windows::Forms::Button^  deslButton;
 
 #pragma region Windows Form Designer generated code
@@ -130,7 +135,10 @@ namespace CalculatorClient {
             this->openddsButton = (gcnew System::Windows::Forms::RadioButton());
             this->rtiButton = (gcnew System::Windows::Forms::RadioButton());
             this->deslButton = (gcnew System::Windows::Forms::Button());
+            this->statusStrip = (gcnew System::Windows::Forms::StatusStrip());
+            this->toolStripStatusLabel1 = (gcnew System::Windows::Forms::ToolStripStatusLabel());
             this->serversBox->SuspendLayout();
+            this->statusStrip->SuspendLayout();
             this->SuspendLayout();
             // 
             // txtBox
@@ -431,13 +439,31 @@ namespace CalculatorClient {
             this->deslButton->UseVisualStyleBackColor = true;
             this->deslButton->Click += gcnew System::EventHandler(this, &MainWindow::deslButton_Click);
             // 
+            // statusStrip
+            // 
+            this->statusStrip->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(9)), static_cast<System::Int32>(static_cast<System::Byte>(72)), 
+                static_cast<System::Int32>(static_cast<System::Byte>(126)));
+            this->statusStrip->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) {this->toolStripStatusLabel1});
+            this->statusStrip->Location = System::Drawing::Point(0, 402);
+            this->statusStrip->Name = L"statusStrip";
+            this->statusStrip->Size = System::Drawing::Size(338, 22);
+            this->statusStrip->TabIndex = 19;
+            this->statusStrip->Text = L"statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this->toolStripStatusLabel1->ForeColor = System::Drawing::Color::White;
+            this->toolStripStatusLabel1->Name = L"toolStripStatusLabel1";
+            this->toolStripStatusLabel1->Size = System::Drawing::Size(0, 17);
+            // 
             // MainWindow
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
             this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(9)), static_cast<System::Int32>(static_cast<System::Byte>(72)), 
                 static_cast<System::Int32>(static_cast<System::Byte>(126)));
-            this->ClientSize = System::Drawing::Size(338, 399);
+            this->ClientSize = System::Drawing::Size(338, 424);
+            this->Controls->Add(this->statusStrip);
             this->Controls->Add(this->deslButton);
             this->Controls->Add(this->serversBox);
             this->Controls->Add(this->bBorrar);
@@ -463,6 +489,8 @@ namespace CalculatorClient {
             this->Text = L"Calculator (RTI DDS)";
             this->serversBox->ResumeLayout(false);
             this->serversBox->PerformLayout();
+            this->statusStrip->ResumeLayout(false);
+            this->statusStrip->PerformLayout();
             this->ResumeLayout(false);
             this->PerformLayout();
 
@@ -613,10 +641,23 @@ private:
                 {
                     DDS_Long addition_ret = proxy->addition(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(addition_ret);
+                    this->toolStripStatusLabel1->Text = "Operation successful";
                 }
-                catch(eProsima::RPCDDS::Exception &ex)
+                catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
                     this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server Exception: ";
+                    this->toolStripStatusLabel1->Text += gcnew String(ex.what());
+                }
+                catch(eProsima::RPCDDS::ServerNotFoundException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server not found";
+                }
+                catch(eProsima::RPCDDS::ServerTimeoutException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
             else if(operation == 2)
@@ -625,10 +666,23 @@ private:
                 {
                     DDS_Long substraction_ret = proxy->substraction(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(substraction_ret);
+                    this->toolStripStatusLabel1->Text = "Operation successful";
                 }
-                catch(eProsima::RPCDDS::Exception &ex)
+                catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
                     this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server Exception: ";
+                    this->toolStripStatusLabel1->Text += gcnew String(ex.what());
+                }
+                catch(eProsima::RPCDDS::ServerNotFoundException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server not found";
+                }
+                catch(eProsima::RPCDDS::ServerTimeoutException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
             else if(operation == 3)
@@ -637,10 +691,23 @@ private:
                 {
                     DDS_Long multiplication_ret = proxy->multiplication(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(multiplication_ret);
+                    this->toolStripStatusLabel1->Text = "Operation successful";
                 }
-                catch(eProsima::RPCDDS::Exception &ex)
+                catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
                     this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server Exception: ";
+                    this->toolStripStatusLabel1->Text += gcnew String(ex.what());
+                }
+                catch(eProsima::RPCDDS::ServerNotFoundException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server not found";
+                }
+                catch(eProsima::RPCDDS::ServerTimeoutException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
             else if(operation == 4)
@@ -649,10 +716,23 @@ private:
                 {
                     DDS_Long division_ret = proxy->division(firstOp, secondOp);
                     this->txtBox->Text = Convert::ToString(division_ret);
+                    this->toolStripStatusLabel1->Text = "Operation successful";
                 }
-                catch(eProsima::RPCDDS::Exception &ex)
+                catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
                     this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server Exception: ";
+                    this->toolStripStatusLabel1->Text += gcnew String(ex.what());
+                }
+                catch(eProsima::RPCDDS::ServerNotFoundException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Server not found";
+                }
+                catch(eProsima::RPCDDS::ServerTimeoutException &ex)
+                {
+                    this->txtBox->Text = "0";
+                    this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
 
@@ -669,7 +749,7 @@ private:
             close = false;
             this->deslButton->Location = System::Drawing::Point(140, 465);
             this->deslButton->Text = "ÝÝ";
-            this->Size = System::Drawing::Size(344, 516);
+            this->Size = System::Drawing::Size(344, 541);
             this->serversBox->Visible = true;
         }
         else
@@ -677,7 +757,7 @@ private:
             close = true;
             this->deslButton->Location = System::Drawing::Point(140, 374);
             this->deslButton->Text = "ßß";
-            this->Size = System::Drawing::Size(344, 425);
+            this->Size = System::Drawing::Size(344, 450);
             this->serversBox->Visible = false;
         }
     }
