@@ -151,8 +151,8 @@ namespace eProsima
                     discovery->sedp_multicast(false);
                     std::vector<std::string> addresses;
                     discovery->spdp_send_addrs().swap(addresses);
-                    TheServiceParticipant->add_discovery(OpenDDS::DCPS::static_rchandle_cast<OpenDDS::DCPS::Discovery>(discovery));
-                    TheServiceParticipant->set_repo_domain(domainId, "rtps");
+                    TheServiceParticipant->add_discovery(OpenDDS::DCPS::static_rchandle_cast<OpenDDS::DCPS::Discovery>(discovery));    
+                    TheServiceParticipant->set_default_discovery("rtps");
 
                     return TheParticipantFactory;
                 }
@@ -162,7 +162,9 @@ namespace eProsima
                 }
             }
             else
+            {
                 return TheParticipantFactory;
+            }
 
             return NULL;
 #else

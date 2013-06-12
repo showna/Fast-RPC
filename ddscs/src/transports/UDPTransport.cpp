@@ -13,6 +13,8 @@
 #include "dds/DCPS/transport/framework/TransportRegistry.h"
 #include "dds/DCPS/transport/framework/TransportInst_rch.h"
 #include "dds/DCPS/transport/rtps_udp/RtpsUdpInst.h"
+#include "dds/DCPS/DomainParticipantImpl.h"
+#include "eProsima_c/eProsimaMacros.h"
 #endif
 
 static const char* const CLASS_NAME = "UDPTransport";
@@ -36,7 +38,7 @@ namespace eProsima
                 free(m_to_connect);
         }
 
-        int UDPClientTransport::setTransport(DDS::DomainParticipantQos &participantQos)
+        int UDPClientTransport::setTransport(DDS::DomainParticipantQos &participantQos, DDS::DomainParticipant *participant)
         {
 #if (defined(RTI_WIN32) || defined(RTI_LINUX))
 
@@ -56,22 +58,28 @@ namespace eProsima
 #elif (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
             const char* const METHOD_NAME = "setTransport";
             int returnedValue = -1;
-            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config("rpcdds_config");
+            char cfgbuffer[50], trabuffer[50];
+            OpenDDS::DCPS::RepoId pid = dynamic_cast<OpenDDS::DCPS::DomainParticipantImpl*>(participant)->get_id();
+            int participantId = *(int*)&pid.guidPrefix[8];
+            SNPRINTF(cfgbuffer, 50, "config_%ld", participantId);
+            SNPRINTF(trabuffer, 50, "trans_%ld", participantId);
+
+            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config(cfgbuffer);
 
             if(cfg.is_nil())
             {        
-                cfg = TheTransportRegistry->create_config("rpcdds_config");
+                cfg = TheTransportRegistry->create_config(cfgbuffer);
 
                 if(cfg != NULL)
                 {
-                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
+                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst(trabuffer, "rtps_udp");
 
                     if(inst != NULL)
                     {
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = false;
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->heartbeat_period_ = ACE_Time_Value(3);
                         cfg->instances_.push_back(inst);
-                        TheTransportRegistry->global_config(cfg);
+                        TheTransportRegistry->bind_config(cfg, participant);
 
                         returnedValue = 0;
                     }
@@ -85,8 +93,6 @@ namespace eProsima
                     printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
                 }
             }
-            else
-                return 0;
 
             return returnedValue;
 #endif
@@ -100,29 +106,35 @@ namespace eProsima
         {
         }
 
-		int UDPServerTransport::setTransport(DDS::DomainParticipantQos &participantQos)
+		int UDPServerTransport::setTransport(DDS::DomainParticipantQos &participantQos, DDS::DomainParticipant *participant)
         {
 #if (defined(RTI_WIN32) || defined(RTI_LINUX))
 			return 0;
 #elif (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
             const char* const METHOD_NAME = "setTransport";
             int returnedValue = -1;
-            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config("rpcdds_config");
+            char cfgbuffer[50], trabuffer[50];
+            OpenDDS::DCPS::RepoId pid = dynamic_cast<OpenDDS::DCPS::DomainParticipantImpl*>(participant)->get_id();
+            int participantId = *(int*)&pid.guidPrefix[8];
+            SNPRINTF(cfgbuffer, 50, "config_%ld", participantId);
+            SNPRINTF(trabuffer, 50, "trans_%ld", participantId);
+
+            OpenDDS::DCPS::TransportConfig_rch cfg = TheTransportRegistry->get_config(cfgbuffer);
 
             if(cfg.is_nil())
             {        
-                cfg = TheTransportRegistry->create_config("rpcdds_config");
+                cfg = TheTransportRegistry->create_config(cfgbuffer);
 
                 if(cfg != NULL)
                 {
-                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst("rpcdds_transport", "rtps_udp");
+                    OpenDDS::DCPS::TransportInst_rch inst = TheTransportRegistry->create_inst(trabuffer, "rtps_udp");
 
                     if(inst != NULL)
                     {
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->use_multicast_ = false;
                         OpenDDS::DCPS::dynamic_rchandle_cast<OpenDDS::DCPS::RtpsUdpInst>(inst)->heartbeat_period_ = ACE_Time_Value(3);
                         cfg->instances_.push_back(inst);
-                        TheTransportRegistry->global_config(cfg);
+                        TheTransportRegistry->bind_config(cfg, participant);
 
                         returnedValue = 0;
                     }
@@ -136,8 +148,6 @@ namespace eProsima
                     printf("ERROR<%s::%s>: Cannot create transport config object\n", CLASS_NAME, METHOD_NAME);
                 }
             }
-            else
-                return 0;
 
             return returnedValue;
 #endif

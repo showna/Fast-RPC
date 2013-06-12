@@ -28,8 +28,8 @@ namespace CalculatorClient {
 
             try
             {
-                m_openproxy = new CalculatorProxy("OpenDDSCalculatorService", 14);
-                m_rtiproxy = new CalculatorProxy("RTICalculatorService", 15);
+                m_openproxy = new CalculatorProxy("OpenDDSCalculatorService", 13);
+                m_rtiproxy = new CalculatorProxy("RTICalculatorService", 13);
             }
             catch(eProsima::RPCDDS::InitializeException &ex)
             {
