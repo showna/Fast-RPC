@@ -28,8 +28,8 @@
 // TAO_IDL - Generated from
 // be\be_codegen.cpp:135
 
-#ifndef _TAO_IDL_IDL_MESSAGEHEADERC_H_
-#define _TAO_IDL_IDL_MESSAGEHEADERC_H_
+#ifndef _TAO_IDL_OPENDDS_MESSAGEHEADERC_H_
+#define _TAO_IDL_OPENDDS_MESSAGEHEADERC_H_
 
 
 #include /**/ "ace/config-all.h"
@@ -67,7 +67,7 @@ typedef
   Identification_out;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  Identification
 {
@@ -82,7 +82,7 @@ struct  Identification
 };
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Identification;
 
@@ -104,7 +104,7 @@ typedef
   RequestHeader_out;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  RequestHeader
 {
@@ -118,7 +118,7 @@ struct  RequestHeader
 };
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_RequestHeader;
 
@@ -140,7 +140,7 @@ typedef
   ReplyHeader_out;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/structure_ch.cpp:57
 
 struct  ReplyHeader
 {
@@ -155,7 +155,7 @@ struct  ReplyHeader
 };
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_ReplyHeader;
 
@@ -173,7 +173,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -186,7 +186,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
@@ -199,7 +199,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_structure/cdr_op_ch.cpp:54
 
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL

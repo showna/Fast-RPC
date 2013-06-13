@@ -61,7 +61,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionRequestTypeSupport.
 
@@ -182,7 +182,7 @@ Calculator_additionRequestTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -195,7 +195,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionRequestTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionRequestDataWriter.
 
@@ -316,7 +316,7 @@ Calculator_additionRequestDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -329,7 +329,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionRequestDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionRequestDataReader.
 
@@ -454,7 +454,7 @@ Calculator_additionRequestDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -467,7 +467,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionRequestDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionReplyTypeSupport.
 
@@ -588,7 +588,7 @@ Calculator_additionReplyTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -601,7 +601,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionReplyTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionReplyDataWriter.
 
@@ -722,7 +722,7 @@ Calculator_additionReplyDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -735,7 +735,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionReplyDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_additionReplyDataReader.
 
@@ -860,7 +860,7 @@ Calculator_additionReplyDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -873,7 +873,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_additionReplyDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionRequestTypeSupport.
 
@@ -994,7 +994,7 @@ Calculator_substractionRequestTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1007,7 +1007,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionRequestTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionRequestDataWriter.
 
@@ -1128,7 +1128,7 @@ Calculator_substractionRequestDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1141,7 +1141,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionRequestDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionRequestDataReader.
 
@@ -1266,7 +1266,7 @@ Calculator_substractionRequestDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1279,7 +1279,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionRequestDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionReplyTypeSupport.
 
@@ -1400,7 +1400,7 @@ Calculator_substractionReplyTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1413,7 +1413,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionReplyTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionReplyDataWriter.
 
@@ -1534,7 +1534,7 @@ Calculator_substractionReplyDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1547,7 +1547,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionReplyDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_substractionReplyDataReader.
 
@@ -1672,7 +1672,7 @@ Calculator_substractionReplyDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1685,7 +1685,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_substractionReplyDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationRequestTypeSupport.
 
@@ -1806,7 +1806,7 @@ Calculator_multiplicationRequestTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1819,7 +1819,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationRequestTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationRequestDataWriter.
 
@@ -1940,7 +1940,7 @@ Calculator_multiplicationRequestDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -1953,7 +1953,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationRequestDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationRequestDataReader.
 
@@ -2078,7 +2078,7 @@ Calculator_multiplicationRequestDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2091,7 +2091,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationRequestDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationReplyTypeSupport.
 
@@ -2212,7 +2212,7 @@ Calculator_multiplicationReplyTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2225,7 +2225,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationReplyTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationReplyDataWriter.
 
@@ -2346,7 +2346,7 @@ Calculator_multiplicationReplyDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2359,7 +2359,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationReplyDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_multiplicationReplyDataReader.
 
@@ -2484,7 +2484,7 @@ Calculator_multiplicationReplyDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2497,7 +2497,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_multiplicationReplyDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionRequestTypeSupport.
 
@@ -2618,7 +2618,7 @@ Calculator_divisionRequestTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2631,7 +2631,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_divisionRequestTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionRequestDataWriter.
 
@@ -2752,7 +2752,7 @@ Calculator_divisionRequestDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2765,7 +2765,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_divisionRequestDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionRequestDataReader.
 
@@ -2890,7 +2890,7 @@ Calculator_divisionRequestDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -2903,7 +2903,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_divisionRequestDataReader;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionReplyTypeSupport.
 
@@ -3024,7 +3024,7 @@ Calculator_divisionReplyTypeSupport::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -3037,7 +3037,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_divisionReplyTypeSupport;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionReplyDataWriter.
 
@@ -3158,7 +3158,7 @@ Calculator_divisionReplyDataWriter::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>
@@ -3171,7 +3171,7 @@ static TAO::TypeCode::Objref<char const *,
   &_tao_tc_Calculator_divisionReplyDataWriter;
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_cs.cpp:60
 
 // Traits specializations for Calculator_divisionReplyDataReader.
 
@@ -3296,7 +3296,7 @@ Calculator_divisionReplyDataReader::marshal (TAO_OutputCDR &)
 }
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/objref_typecode.cpp:76
 
 static TAO::TypeCode::Objref<char const *,
                              TAO::Null_RefCount_Policy>

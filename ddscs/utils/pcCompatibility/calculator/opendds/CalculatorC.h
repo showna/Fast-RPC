@@ -28,8 +28,8 @@
 // TAO_IDL - Generated from
 // be\be_codegen.cpp:135
 
-#ifndef _TAO_IDL_IDL_CALCULATORC_H_
-#define _TAO_IDL_IDL_CALCULATORC_H_
+#ifndef _TAO_IDL_OPENDDS_CALCULATORC_H_
+#define _TAO_IDL_OPENDDS_CALCULATORC_H_
 
 
 #include /**/ "ace/config-all.h"
@@ -54,7 +54,7 @@
 #define TAO_EXPORT_MACRO 
 
 // TAO_IDL - Generated from 
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_root/root_ch.cpp:62
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_root/root_ch.cpp:62
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
 
 
@@ -92,7 +92,7 @@ typedef
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:54
 
 #if !defined (_CALCULATOR_CH_)
 #define _CALCULATOR_CH_
@@ -121,35 +121,35 @@ public:
   
   
   // TAO_IDL - Generated from
-  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::CORBA::Long addition (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
-  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::CORBA::Long substraction (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
-  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::CORBA::Long multiplication (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
-  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
+  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_operation/operation_ch.cpp:46
   
   virtual ::CORBA::Long division (
       ::CORBA::Long x,
       ::CORBA::Long y);
   
   // TAO_IDL - Generated from
-  // c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
+  // d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/interface_ch.cpp:216
   
   virtual ::CORBA::Boolean _is_a (const char *type_id);
   virtual const char* _interface_repository_id (void) const;
@@ -189,14 +189,14 @@ private:
 #endif /* end #if !defined */
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_typecode/typecode_decl.cpp:49
 
 extern  ::CORBA::TypeCode_ptr const _tc_Calculator;
 
 // Proxy Broker Factory function pointer declarations.
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_root/root.cpp:139
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_root/root.cpp:139
 
 extern 
 TAO::Collocation_Proxy_Broker *
@@ -239,7 +239,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 
 
 // TAO_IDL - Generated from
-// c:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/cdr_op_ch.cpp:55
+// d:\richi\workspace\desarrollo\dds\opendds\instalaciones\opendds3.3\ace_wrappers_x64\tao\tao_idl\be\be_visitor_interface/cdr_op_ch.cpp:55
 
 TAO_BEGIN_VERSIONED_NAMESPACE_DECL
 
