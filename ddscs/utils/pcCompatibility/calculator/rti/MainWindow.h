@@ -421,7 +421,7 @@ namespace CalculatorClient {
             this->rtiButton->Size = System::Drawing::Size(96, 22);
             this->rtiButton->TabIndex = 0;
             this->rtiButton->TabStop = true;
-            this->rtiButton->Text = L"RTI Server";
+            this->rtiButton->Text = L"RTI Connext Server";
             this->rtiButton->UseVisualStyleBackColor = true;
             this->rtiButton->Click += gcnew System::EventHandler(this, &MainWindow::rtiButton_Click);
             // 
@@ -486,7 +486,7 @@ namespace CalculatorClient {
             this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
             this->MaximizeBox = false;
             this->Name = L"MainWindow";
-            this->Text = L"Calculator (RTI DDS)";
+            this->Text = L"Calculator (RTI Connext DDS)";
             this->serversBox->ResumeLayout(false);
             this->serversBox->PerformLayout();
             this->statusStrip->ResumeLayout(false);
@@ -499,14 +499,14 @@ namespace CalculatorClient {
 private: 
     System::Void bn0_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "0";
     }
     System::Void bn1_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "1";
@@ -514,7 +514,7 @@ private:
 
     System::Void bn2_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "2";
@@ -522,7 +522,7 @@ private:
 
     System::Void bn3_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "3";
@@ -530,7 +530,7 @@ private:
 
     System::Void bn4_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "4";
@@ -538,7 +538,7 @@ private:
 
     System::Void bn5_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "5";
@@ -546,7 +546,7 @@ private:
 
     System::Void bn6_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "6";
@@ -554,7 +554,7 @@ private:
 
     System::Void bn7_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "7";
@@ -562,7 +562,7 @@ private:
 
     System::Void bn8_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "8";
@@ -570,7 +570,7 @@ private:
 
     System::Void bn9_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(this->txtBox->Text == "0")
+        if(this->txtBox->Text == "0" || this->txtBox->Text == "Error")
             this->txtBox->Text = "";
             
         this->txtBox->Text = this->txtBox->Text + "9";
@@ -584,7 +584,7 @@ private:
 
     System::Void bAdd_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(operation == 0)
+        if(operation == 0 && this->txtBox->Text != "Error")
         {
             firstOp = Convert::ToInt32(this->txtBox->Text);
             this->txtBox->Text = this->txtBox->Text + " + ";
@@ -594,7 +594,7 @@ private:
     }
     System::Void bSubs_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(operation == 0)
+        if(operation == 0 && this->txtBox->Text != "Error")
         {
             firstOp = Convert::ToInt32(this->txtBox->Text);
             this->txtBox->Text = this->txtBox->Text + " - ";
@@ -605,7 +605,7 @@ private:
 
     System::Void bMul_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(operation == 0)
+        if(operation == 0 && this->txtBox->Text != "Error")
         {
             firstOp = Convert::ToInt32(this->txtBox->Text);
             this->txtBox->Text = this->txtBox->Text + " x ";
@@ -616,7 +616,7 @@ private:
 
     System::Void bDiv_Click(System::Object^  sender, System::EventArgs^  e)
     {
-        if(operation == 0)
+        if(operation == 0 && this->txtBox->Text != "Error")
         {
             firstOp = Convert::ToInt32(this->txtBox->Text);
             this->txtBox->Text = this->txtBox->Text + " / ";
@@ -633,7 +633,7 @@ private:
             secondOp = Convert::ToInt32(s);
             CalculatorProxy *proxy = (serverSelected == 0 ? m_rtiproxy : m_openproxy);
 
-            this->Text = L"Calculator (RTI DDS) ... Sending";
+            this->Text = L"Calculator (RTI Connext DDS) ... Sending";
 
             if(operation == 1)
             {
@@ -645,18 +645,18 @@ private:
                 }
                 catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server Exception: ";
                     this->toolStripStatusLabel1->Text += gcnew String(ex.what());
                 }
                 catch(eProsima::RPCDDS::ServerNotFoundException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server not found";
                 }
                 catch(eProsima::RPCDDS::ServerTimeoutException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
@@ -670,18 +670,18 @@ private:
                 }
                 catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server Exception: ";
                     this->toolStripStatusLabel1->Text += gcnew String(ex.what());
                 }
                 catch(eProsima::RPCDDS::ServerNotFoundException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server not found";
                 }
                 catch(eProsima::RPCDDS::ServerTimeoutException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
@@ -695,18 +695,18 @@ private:
                 }
                 catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server Exception: ";
                     this->toolStripStatusLabel1->Text += gcnew String(ex.what());
                 }
                 catch(eProsima::RPCDDS::ServerNotFoundException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server not found";
                 }
                 catch(eProsima::RPCDDS::ServerTimeoutException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
@@ -720,25 +720,25 @@ private:
                 }
                 catch(eProsima::RPCDDS::ServerInternalException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server Exception: ";
                     this->toolStripStatusLabel1->Text += gcnew String(ex.what());
                 }
                 catch(eProsima::RPCDDS::ServerNotFoundException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Server not found";
                 }
                 catch(eProsima::RPCDDS::ServerTimeoutException &ex)
                 {
-                    this->txtBox->Text = "0";
+                    this->txtBox->Text = "Error";
                     this->toolStripStatusLabel1->Text = "Operation failed: timeout";
                 }
             }
 
             operation = 0;
 
-            this->Text = L"Calculator (RTI DDS)";
+            this->Text = L"Calculator (RTI Connext DDS)";
         }
     }
 
