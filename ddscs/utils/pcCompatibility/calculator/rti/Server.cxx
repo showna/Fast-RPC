@@ -43,7 +43,7 @@ int main(int argc, char **argv)
         return -1;
     }
     
-    std::cout << "Press a key + ENTER to exit the server" << std::endl;
+    std::cout << "\033[34mPress a key + ENTER to exit the server\033[0m" << std::endl;
     std::string line;
     std::cin >> line;
     

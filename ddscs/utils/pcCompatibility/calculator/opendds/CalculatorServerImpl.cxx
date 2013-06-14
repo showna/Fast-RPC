@@ -22,7 +22,7 @@ CORBA::Long CalculatorServerImpl::addition(/*in*/ CORBA::Long x, /*in*/ CORBA::L
     CORBA::Long  addition_ret = 0;
 
     addition_ret = x + y;
-    std::cout << "addition(" << x << ", " << y << ")" << std::endl;
+    std::cout << "\033[32mOpenDDS server: \033[0m" << "addition(" << x << ", " << y << ")" << std::endl;
    
     return addition_ret;
 } 
@@ -32,7 +32,7 @@ CORBA::Long CalculatorServerImpl::substraction(/*in*/ CORBA::Long x, /*in*/ CORB
     CORBA::Long  substraction_ret = 0;
 
     substraction_ret = x - y;
-    std::cout << "substraction(" << x << ", " << y << ")" << std::endl;
+    std::cout << "\033[32mOpenDDS server: \033[0m" << "substraction(" << x << ", " << y << ")" << std::endl;
    
     return substraction_ret;
 } 
@@ -42,7 +42,7 @@ CORBA::Long CalculatorServerImpl::multiplication(/*in*/ CORBA::Long x, /*in*/ CO
     CORBA::Long  multiplication_ret = 0;
 
     multiplication_ret = x * y;
-    std::cout << "multiplication(" << x << ", " << y << ")" << std::endl;
+    std::cout << "\033[32mOpenDDS server: \033[0m" << "multiplication(" << x << ", " << y << ")" << std::endl;
    
     return multiplication_ret;
 } 
@@ -52,10 +52,13 @@ CORBA::Long CalculatorServerImpl::division(/*in*/ CORBA::Long x, /*in*/ CORBA::L
     CORBA::Long  division_ret = 0;
 
     if(y == 0)
+    {
+        std::cout << "\033[32mOpenDDS server: \033[0m" << "Throwing exception cause division by zero" << std::endl;
         throw eProsima::RPCDDS::ServerInternalException("Division by zero");
+    }
 
     division_ret = x / y;
-    std::cout << "division(" << x << ", " << y << ")" << std::endl;
+    std::cout << "\033[32mOpenDDS server: \033[0m" << "division(" << x << ", " << y << ")" << std::endl;
    
     return division_ret;
 } 
