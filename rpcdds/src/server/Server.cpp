@@ -45,9 +45,9 @@ namespace eProsima
 				if(factory != NULL)
 				{
 					factory->get_default_participant_qos(participantQos);
-	#if (defined(RTI_WIN32) || defined(RTI_LINUX))
+#if defined(RTI_WIN32) || defined(RTI_LINUX)
 					m_transport->setTransport(participantQos, NULL);
-	#endif
+#endif
 
 					increase_buffers(participantQos);
 					// Creating the domain participant which is associated with the client
@@ -61,7 +61,7 @@ namespace eProsima
 						{
 							participantQos.entity_factory.autoenable_created_entities = BOOLEAN_FALSE;
 
-#if (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
+#if defined(OPENDDS)
 				            m_transport->setTransport(participantQos, m_participant);
 #endif
 

@@ -48,7 +48,7 @@ namespace eProsima
 			return *this;
 		}
 
-		ServerTimeoutException::~ServerTimeoutException() RPCDDS_USE_NOEXCEPT
+		ServerTimeoutException::~ServerTimeoutException() throw()
 		{
 		}
 

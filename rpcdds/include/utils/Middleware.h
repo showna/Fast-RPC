@@ -9,7 +9,7 @@
 #ifndef _UTILS_MIDDLEWARE_H_
 #define _UTILS_MIDDLEWARE_H_
 
-#if (defined(RTI_WIN32) || defined(RTI_LINUX))
+#if defined(RTI_WIN32) || defined(RTI_LINUX)
 
 #include "ndds_namespace_cpp.h"
 
@@ -24,7 +24,7 @@
 #define EPROSIMA_UINT32 RTI_UINT32
 
 
-#elif (defined(OPENDDS_WIN32) || defined(OPENDDS_LINUX))
+#elif defined(OPENDDS)
 
 #include "dds/DdsDcpsC.h"
 #include "dds/DdsDcpsInfrastructureC.h"

@@ -48,7 +48,7 @@ namespace eProsima
 			return *this;
 		}
 
-		ServerNotFoundException::~ServerNotFoundException() RPCDDS_USE_NOEXCEPT
+		ServerNotFoundException::~ServerNotFoundException() throw()
 		{
 		}
 

@@ -9,9 +9,9 @@
 #ifndef _CLIENT_CLIENTRPC_H_
 #define _CLIENT_CLIENTRPC_H_
 
-#include "utils/rpcdds.h"
-#include "utils/Messages.h"
+#include "rpcdds_dll.h"
 #include "utils/Middleware.h"
+#include "utils/Messages.h"
 
 #define QUERY_POOL_LENGTH 10
 
@@ -31,7 +31,7 @@ namespace eProsima
 		 * @brief This class implements a remote procedure call in server's proxy side.
          * @ingroup CLIENTMODULE
 		 */
-		class RPCDDS_WIN32_DLL_API ClientRPC
+		class RPCDDS_DllAPI ClientRPC
 		{
 			public:
 
@@ -90,17 +90,6 @@ namespace eProsima
 				 */
 				virtual ReturnMessage takeReply(void *reply, DDS::QueryCondition *query) = 0;
 
-			protected:
-
-				/**
-				 * \brief This function writes the request using the DDS DataWriter.
-				 *        This virtual function has to be implemented by the specific code.
-				 *
-				 * \param data Pointer to the request. Cannot be NULL.
-				 * \return DDS return code that write function returns.
-				 */
-				virtual DDS::ReturnCode_t write(void *data) = 0;
-
 				/**
 				 * @brief This funcion returns the DDS datareader that receives the replies from the server.
 				 *
@@ -114,6 +103,17 @@ namespace eProsima
 				 * @return Pointer to the DDS datawriter.
 				 */
 				DDS::DataWriter* getRequestDatawriter() const;
+
+			protected:
+
+				/**
+				 * \brief This function writes the request using the DDS DataWriter.
+				 *        This virtual function has to be implemented by the specific code.
+				 *
+				 * \param data Pointer to the request. Cannot be NULL.
+				 * \return DDS return code that write function returns.
+				 */
+				virtual DDS::ReturnCode_t write(void *data) = 0;
 
 				/**
 				 * @brief This function deletes all asynchronous tasks associated with the RPC endpoint.

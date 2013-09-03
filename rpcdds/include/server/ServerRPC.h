@@ -9,10 +9,10 @@
 #ifndef _SERVER_SERVERPC_H_
 #define _SERVER_SERVERRPC_H_
 
-#include "utils/rpcdds.h"
+#include "utils/Middleware.h"
+#include "rpcdds_dll.h"
 #include "utils/Typedefs.h"
 #include "utils/Messages.h"
-#include "utils/Middleware.h"
 #include <string>
 
 namespace eProsima
@@ -27,7 +27,7 @@ namespace eProsima
 		 * @brief This class implements a remote procedure call in server side.
          * @ingroup SERVERMODULE
 		 */
-		class RPCDDS_WIN32_DLL_API ServerRPC : public DDS::DataReaderListener
+		class RPCDDS_DllAPI ServerRPC : public DDS::DataReaderListener
 		{
 			public:
 
@@ -68,6 +68,20 @@ namespace eProsima
 
 				/// \brief This function returns the function that is called when a new request is recevied.
 				fExecFunction getExecFunction() const;
+
+				/**
+				 * @brief This funcion returns the DDS datareader that receives the requests from clients.
+				 *
+				 * @return Pointer to the DDS datareader.
+				 */
+				DDS::DataReader* getRequestDatareader() const;
+
+				/**
+				 * @brief This funcion returns the DDS datawriter that sends the replies to clients.
+				 *
+				 * @return Pointer to the DDS datawriter.
+				 */
+				DDS::DataWriter* getReplyDatawriter() const;
 
 				/**
 				 * @brief This function is called when a reply wants to be sent.
@@ -121,20 +135,6 @@ namespace eProsima
 						const DDS::SubscriptionMatchedStatus& status) {}
 
 		    protected:
-
-				/**
-				 * @brief This funcion returns the DDS datareader that receives the requests from clients.
-				 *
-				 * @return Pointer to the DDS datareader.
-				 */
-				DDS::DataReader* getRequestDatareader() const;
-
-				/**
-				 * @brief This funcion returns the DDS datawriter that sends the replies to clients.
-				 *
-				 * @return Pointer to the DDS datawriter.
-				 */
-				DDS::DataWriter* getReplyDatawriter() const;
 
 				/**
 				 * @brief This funcion returns the server that contains this remote procedure object.

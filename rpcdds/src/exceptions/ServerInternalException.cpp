@@ -48,7 +48,7 @@ namespace eProsima
 			return *this;
 		}
 
-		ServerInternalException::~ServerInternalException() RPCDDS_USE_NOEXCEPT
+		ServerInternalException::~ServerInternalException() throw()
 		{
 		}
 
