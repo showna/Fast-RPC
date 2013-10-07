@@ -14,6 +14,7 @@
 
 #include "SimpleDelayServer.h"
 #include "strategies/ThreadPoolStrategy.h"
+#include "SimpleDelayServerImplExample.h"
 #include "exceptions/Exceptions.h"
 #include "utils/Utilities.h"
 
@@ -23,13 +24,14 @@ int main(int argc, char **argv)
 {
     unsigned int threadPoolSize = 100;
     eProsima::RPCDDS::ThreadPoolStrategy *pool = NULL;
+    SimpleDelayServerImplExample impl;
     SimpleDelayServer *server = NULL;
     
     // Create and initialize the server for interface "SimpleDelay".
     try
     {
         pool = new eProsima::RPCDDS::ThreadPoolStrategy(threadPoolSize);
-        server = new SimpleDelayServer("SimpleDelayService", pool);
+        server = new SimpleDelayServer("SimpleDelayService", pool, impl);
         server->serve();
     }
     catch(eProsima::RPCDDS::InitializeException &ex)

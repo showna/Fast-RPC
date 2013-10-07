@@ -21,7 +21,7 @@ COMMONSOURCES = ../../common/rpcdds/SimpleDelayRequestReply.cxx ../../common/rpc
 
 COMMON_SOURCES_DIRS_AUX= $(foreach srcdir, $(dir $(COMMONSOURCES)), $(srcdir))
 COMMON_SOURCES_DIRS= $(shell echo $(COMMON_SOURCES_DIRS_AUX) | tr " " "\n" | sort | uniq | tr "\n" " ")
-SERVERSOURCES = Server.cxx SimpleDelayServerImpl.cxx
+SERVERSOURCES = Server.cxx SimpleDelayServerImplExample.cxx
 DIRECTORIES   = objs.dir objs/x64Linux2.6gcc4.4.5.dir
 COMMONOBJS    = $(foreach obj,$(notdir $(addsuffix .o, $(basename $(COMMONSOURCES)))), objs/x64Linux2.6gcc4.4.5/$(obj))
 SERVEROBJS    = $(SERVERSOURCES:%.cxx=objs/x64Linux2.6gcc4.4.5/%.o)
